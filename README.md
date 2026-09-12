@@ -21,7 +21,7 @@ No buscamos "arreglar" el transporte público — buscamos hacer visible y medib
 
 ##  Estado del proyecto
 
-🚧 En desarrollo activo — proyecto estudiantil de la Escuela Superior de Cómputo (ESCOM), Instituto Politécnico Nacional.
+ En desarrollo activo — proyecto estudiantil de la Escuela Superior de Cómputo (ESCOM), Instituto Politécnico Nacional.
 
 ##  Stack tecnológico
 
@@ -37,7 +37,7 @@ Ver detalle completo en [`docs/stack-tecnologico-cronomx.md`](./docs/stack-tecno
 | Integrante | Rol técnico | Rol de difusión |
 |---|---|---|
 | **Angel David Velazquez Herrera** | Líder del proyecto | Frontend, visualización y dirección de IA |
-| **Miguel** | Backend e infraestructura de datos | Relaciones institucionales y académicas |
+| **Miguel Angel Romero Rentería** | Backend e infraestructura de datos | Relaciones institucionales y académicas |
 | **José Maximiliano Ramírez Monroy** | Modelado matemático del índice | Contenido, redes y storytelling | 
 
 *TODOS DOCUMENTAN EL PROCESO*
