@@ -1,0 +1,52 @@
+import cronoLogo from '../assets/logo-crono-sin-f.png';
+import './Hero.css';
+
+export default function Hero() {
+  return (
+    <section className="hero">
+      <div className="hero-glow" aria-hidden="true" />
+
+      <nav className="hero-nav">
+        <img src={cronoLogo} alt="CronoMX" className="hero-logo" />
+        <div className="hero-links">
+          <a href="#mapa">Mapa</a>
+          <a href="#comparador">Comparador</a>
+          <a href="#metodologia">Metodología</a>
+        </div>
+        <a href="#mapa" className="hero-nav-cta">Explorar</a>
+      </nav>
+
+      <div className="hero-body">
+        <span className="hero-badge">Estado de México → Ciudad de México</span>
+
+        <h1 className="hero-stat">5h 49min</h1>
+
+        <p className="hero-copy">
+          Es lo que le puede tomar a una persona cruzar la Zona Metropolitana
+          del Valle de México en transporte público. En auto particular,
+          poco más de la mitad.
+        </p>
+
+        <div className="hero-actions">
+          <a href="#mapa" className="hero-cta">Ver el mapa</a>
+          <a href="#metodologia" className="hero-cta-ghost">Ver metodología</a>
+        </div>
+      </div>
+
+      <div className="hero-stats">
+        <div className="hero-stat-item">
+          <span className="hero-stat-number">3</span>
+          <span className="hero-stat-label">Municipios piloto</span>
+        </div>
+        <div className="hero-stat-item">
+          <span className="hero-stat-number">GTFS</span>
+          <span className="hero-stat-label">Datos abiertos de transporte</span>
+        </div>
+        <div className="hero-stat-item">
+          <span className="hero-stat-number">MIT</span>
+          <span className="hero-stat-label">Código abierto</span>
+        </div>
+      </div>
+    </section>
+  );
+}
