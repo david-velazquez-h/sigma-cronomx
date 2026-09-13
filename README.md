@@ -44,7 +44,10 @@ Ver detalle completo en [`docs/stack-tecnologico-cronomx.md`](./docs/stack-tecno
 
 ##  Documentación
 
-Aún no lista
+- [Definición del proyecto](./docs/proyecto-pobreza-de-tiempo.md)
+- [Stack tecnológico](./docs/stack/stack-tecnologico-cronomx.md)
+- [Cronograma del semestre](./docs/cronograma/cronograma-cronomx.md)
+- [Notas y bitácora de decisiones](./docs/notas/notas.md)
 
 ## Licencia
 
