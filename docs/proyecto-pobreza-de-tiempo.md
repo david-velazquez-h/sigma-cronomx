@@ -13,7 +13,7 @@
 
 Cruzar la Zona Metropolitana del Valle de México en transporte público toma en promedio entre **5h21min y 5h49min**, dependiendo de la dirección del trayecto, contra apenas 2.7–2.8 horas en auto particular (dato de ONU-Habitat). Ese costo recae de forma desproporcionada en los municipios conurbados del Estado de México (Ecatepec, Neza, Chalco, Cuautitlán, etc.), cuyos habitantes cruzan diariamente para trabajar o estudiar en la CDMX.
 
-Este fenómeno tiene nombre en estudios urbanos: **pobreza de tiempo**. No es solo "el transporte es lento" — es tiempo de vida, descanso y convivencia que se pierde de forma sistemática, y que hoy **no está cuantificado, visualizado ni es accesible de forma actualizable**. La investigación académica existente sobre movilidad y desigualdad en la ZMVM depende de encuestas que se levantan cada varios años (la Encuesta Origen-Destino del INEGI es de 2017), no de herramientas vivas.
+Este fenómeno tiene nombre en estudios urbanos: **pobreza de tiempo**. No es solo "el transporte es lento", es tiempo de vida, descanso y convivencia que se pierde de forma sistemática, y que hoy **no está cuantificado, visualizado ni es accesible de forma actualizable**. La investigación académica existente sobre movilidad y desigualdad en la ZMVM depende de encuestas que se levantan cada varios años (la Encuesta Origen-Destino del INEGI es de 2017), no de herramientas vivas.
 
 ## 2. Qué resolvemos (y qué no)
 
