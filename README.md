@@ -30,7 +30,7 @@ No buscamos "arreglar" el transporte público, buscamos hacer visible y medible 
 - **Frontend:** React, Leaflet
 - **Datos:** GTFS (CDMX y Mexibús), afluencia histórica Metro/Metrobús (datos abiertos)
 
-Ver detalle completo en [`docs/stack-tecnologico-cronomx.md`](./docs/stack-tecnologico-cronomx.md).
+Ver detalle completo en [`docs/stack/stack-tecnologico-cronomx.md`](./docs/stack/stack-tecnologico-cronomx.md).
 
 ##  Equipo
 
