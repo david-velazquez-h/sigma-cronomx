@@ -36,7 +36,7 @@ Ver detalle completo en [`docs/stack/stack-tecnologico-cronomx.md`](./docs/stack
 
 | Integrante | Rol técnico | Rol de difusión |
 |---|---|---|
-| **Angel David Velazquez Herrera** | Líder del proyecto | Frontend, visualización y dirección de IA |
+| **Angel David Velazquez Herrera** | Líder del proyecto, Frontend y dirección de IA | Comunidades Open-Source y LinkedIn |
 | **Miguel Angel Romero Rentería** | Backend e infraestructura de datos | Relaciones institucionales y académicas |
 | **José Maximiliano Ramírez Monroy** | Modelado matemático del índice | Contenido, redes y storytelling | 
 
