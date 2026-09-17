@@ -1,4 +1,5 @@
-import cronoLogo from '../assets/logo-crono-sin-f.png';
+import { Link } from 'react-router-dom';
+import Nav from './Nav';
 import './Hero.css';
 
 export default function Hero() {
@@ -6,15 +7,7 @@ export default function Hero() {
     <section className="hero">
       <div className="hero-glow" aria-hidden="true" />
 
-      <nav className="hero-nav">
-        <img src={cronoLogo} alt="CronoMX" className="hero-logo" />
-        <div className="hero-links">
-          <a href="#mapa">Mapa</a>
-          <a href="#comparador">Comparador</a>
-          <a href="#metodologia">Metodología</a>
-        </div>
-        <a href="#mapa" className="hero-nav-cta">Explorar</a>
-      </nav>
+      <Nav />
 
       <div className="hero-body">
         <span className="hero-badge">Estado de México → Ciudad de México</span>
@@ -28,8 +21,8 @@ export default function Hero() {
         </p>
 
         <div className="hero-actions">
-          <a href="#mapa" className="hero-cta">Ver el mapa</a>
-          <a href="#metodologia" className="hero-cta-ghost">Ver metodología</a>
+          <Link to="/mapa" className="hero-cta">Ver el mapa</Link>
+          <Link to="/metodologia" className="hero-cta-ghost">Ver metodología</Link>
         </div>
       </div>
 

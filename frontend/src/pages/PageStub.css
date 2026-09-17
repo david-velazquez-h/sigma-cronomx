@@ -1,0 +1,34 @@
+.page-stub {
+  background: #0a0a0a;
+  color: #f2f0ea;
+  min-height: 100vh;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.page-stub-body {
+  padding: 80px clamp(24px, 6vw, 72px);
+  max-width: 680px;
+}
+
+.page-stub-tag {
+  display: inline-block;
+  background: rgba(242, 169, 59, 0.12);
+  color: #f2a93b;
+  font-size: 0.78rem;
+  padding: 5px 12px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.page-stub-body h1 {
+  font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+  font-weight: 500;
+  font-size: 2.2rem;
+  margin: 0 0 12px;
+}
+
+.page-stub-body p {
+  color: #8a8a83;
+  font-size: 1rem;
+  line-height: 1.6;
+}

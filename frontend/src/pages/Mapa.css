@@ -1,0 +1,142 @@
+.mapa-page {
+  background: #0a0a0a;
+  color: #f2f0ea;
+  min-height: 100vh;
+  font-family: 'Inter', system-ui, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.mapa-header {
+  padding: 8px clamp(24px, 6vw, 72px) 24px;
+}
+
+.mapa-tag {
+  display: inline-block;
+  background: rgba(242, 169, 59, 0.12);
+  color: #f2a93b;
+  font-size: 0.78rem;
+  padding: 5px 12px;
+  border-radius: 20px;
+  margin-bottom: 14px;
+}
+
+.mapa-header h1 {
+  font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+  font-weight: 500;
+  font-size: 1.8rem;
+  margin: 0 0 8px;
+}
+
+.mapa-header p {
+  color: #8a8a83;
+  font-size: 0.95rem;
+  max-width: 640px;
+  margin: 0;
+}
+
+.mapa-layout {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 260px;
+  gap: 16px;
+  padding: 0 clamp(24px, 6vw, 72px) clamp(24px, 6vw, 72px);
+  min-height: 0;
+}
+
+.mapa-container {
+  border-radius: 10px;
+  overflow: hidden;
+  min-height: 420px;
+}
+
+.mapa-legend {
+  background: #161616;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.mapa-legend h2 {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #6b6b65;
+  margin: 0 0 12px;
+}
+
+.mapa-scale {
+  display: flex;
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+
+.mapa-scale div { flex: 1; }
+
+.mapa-scale-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.7rem;
+  color: #6b6b65;
+  margin-bottom: 22px;
+}
+
+.mapa-dot-key {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.82rem;
+  margin-bottom: 10px;
+}
+
+.mapa-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.mapa-note {
+  font-size: 0.78rem;
+  color: #6b6b65;
+  line-height: 1.5;
+  padding-top: 12px;
+  margin: 12px 0 0;
+  border-top: 1px solid rgba(242, 240, 234, 0.08);
+}
+
+/* Estilos del popup de Leaflet, sobreescribiendo el blanco por defecto */
+:global(.leaflet-popup-content-wrapper) {
+  background: #fff;
+  color: #1c2430;
+  border-radius: 8px;
+}
+
+.mapa-popup-title {
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+}
+
+.mapa-popup-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.82rem;
+  margin: 3px 0;
+  gap: 16px;
+}
+
+.mapa-popup-flag {
+  font-size: 0.68rem;
+  color: #b0684f;
+  margin-top: 6px;
+}
+
+@media (max-width: 800px) {
+  .mapa-layout {
+    grid-template-columns: 1fr;
+  }
+  .mapa-container {
+    min-height: 320px;
+  }
+}
