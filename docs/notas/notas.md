@@ -30,4 +30,9 @@ También se recortó el logo `LOGO_1_CRONO-MX.png` y se camió el nombre a `logo
 
 ---
 
+### 2026-09-18 — David
+
+Se investigaron los GTFS iniciales sobre prácticamete toda la SEMOVI de la CDMX, se limpiaron los archivos GTFS para qu solo quedaran los del metro y metrobús para esta primer versión de CronoMX, y se eliminó `afluenciametrobus_simple_limpia.csv` archivo que era innecesario para esta primer versión.
+
+---
 *Agreguen su entrada arriba de esta línea, con la fecha más reciente al final del archivo (orden cronológico).*
