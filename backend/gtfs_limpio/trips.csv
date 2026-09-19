@@ -1,0 +1,228 @@
+route_id,service_id,trip_id,shape_id,trip_headsign,trip_short_name,direction_id
+B_CMX0200L2,B_3,B_02300L2000_1,B_SH0200L2000_1,Cuatro Caminos,Línea 2 to Cuatro Caminos,1.0
+B_CMX0200L2,B_3,B_02300L2000_0,B_SH0200L2000_0,Tasqueña,Línea 2 to Tasqueña,0.0
+B_CMX0200L2,B_2,B_02200L2000_1,B_SH0200L2000_1,Cuatro Caminos,Línea 2 to Cuatro Caminos,1.0
+B_CMX0200L2,B_2,B_02200L2000_0,B_SH0200L2000_0,Tasqueña,Línea 2 to Tasqueña,0.0
+B_CMX0200L2,B_1,B_02100L2000_1,B_SH0200L2000_1,Cuatro Caminos,Línea 2 to Cuatro Caminos,1.0
+B_CMX0200L2,B_1,B_02100L2000_0,B_SH0200L2000_0,Tasqueña,Línea 2 to Tasqueña,0.0
+B_CMX0200L3,B_3,B_02300L3000_1,B_SH0200L3000_1,Indios Verdes,to Indios Verdes,1.0
+B_CMX0200L3,B_3,B_02300L3000_0,B_SH0200L3000_0,Universidad,to Universidad,0.0
+B_CMX0200L3,B_2,B_02200L3000_1,B_SH0200L3000_1,Indios Verdes,to Indios Verdes,1.0
+B_CMX0200L3,B_2,B_02200L3000_0,B_SH0200L3000_0,Universidad,to Universidad,0.0
+B_CMX0200L3,B_1,B_02100L3000_1,B_SH0200L3000_1,Indios Verdes,to Indios Verdes,1.0
+B_CMX0200L3,B_1,B_02100L3000_0,B_SH0200L3000_0,Universidad,to Universidad,0.0
+B_CMX0200L4,B_3,B_02300L4000_1,B_SH0200L4000_1,Santa Anita,to Santa Anita,1.0
+B_CMX0200L4,B_3,B_02300L4000_0,B_SH0200L4000_0,Martín Carrera,to Martín Carrera,0.0
+B_CMX0200L4,B_2,B_02200L4000_1,B_SH0200L4000_1,Santa Anita,to Santa Anita,1.0
+B_CMX0200L4,B_2,B_02200L4000_0,B_SH0200L4000_0,Martín Carrera,to Martín Carrera,0.0
+B_CMX0200L4,B_1,B_02100L4000_1,B_SH0200L4000_1,Santa Anita,to Santa Anita,1.0
+B_CMX0200L4,B_1,B_02100L4000_0,B_SH0200L4000_0,Martín Carrera,to Martín Carrera,0.0
+B_CMX0200L5,B_3,B_02300L5000_1,B_SH0200L5000_1,Politécnico,to Politécnico,1.0
+B_CMX0200L5,B_3,B_02300L5000_0,B_SH0200L5000_0,Pantitlán,to Pantitlán,0.0
+B_CMX0200L5,B_2,B_02200L5000_1,B_SH0200L5000_1,Politécnico,to Politécnico,1.0
+B_CMX0200L5,B_2,B_02200L5000_0,B_SH0200L5000_0,Pantitlán,to Pantitlán,0.0
+B_CMX0200L5,B_1,B_02100L5000_1,B_SH0200L5000_1,Politécnico,to Politécnico,1.0
+B_CMX0200L5,B_1,B_02100L5000_0,B_SH0200L5000_0,Pantitlán,to Pantitlán,0.0
+B_CMX0200L6,B_3,B_02300L6000_1,B_SH0200L6000_1,El Rosario,to El Rosario,1.0
+B_CMX0200L6,B_3,B_02300L6000_0,B_SH0200L6000_0,Martín Carrera,to Martín Carrera,0.0
+B_CMX0200L6,B_2,B_02200L6000_1,B_SH0200L6000_1,El Rosario,to El Rosario,1.0
+B_CMX0200L6,B_2,B_02200L6000_0,B_SH0200L6000_0,Martín Carrera,to Martín Carrera,0.0
+B_CMX0200L6,B_1,B_02100L6000_1,B_SH0200L6000_1,El Rosario,to El Rosario,1.0
+B_CMX0200L6,B_1,B_02100L6000_0,B_SH0200L6000_0,Martín Carrera,to Martín Carrera,0.0
+B_CMX0200L7,B_3,B_02300L7000_1,B_SH0200L7000_1,El Rosario,to El Rosario,1.0
+B_CMX0200L7,B_3,B_02300L7000_0,B_SH0200L7000_0,Barranca del Muerto,to Barranca del Muerto,0.0
+B_CMX0200L7,B_2,B_02200L7000_1,B_SH0200L7000_1,El Rosario,to El Rosario,1.0
+B_CMX0200L7,B_2,B_02200L7000_0,B_SH0200L7000_0,Barranca del Muerto,to Barranca del Muerto,0.0
+B_CMX0200L7,B_1,B_02100L7000_1,B_SH0200L7000_1,El Rosario,to El Rosario,1.0
+B_CMX0200L7,B_1,B_02100L7000_0,B_SH0200L7000_0,Barranca del Muerto,to Barranca del Muerto,0.0
+B_CMX0200L8,B_3,B_02300L8000_1,B_SH0200L8000_1,Garibaldi/Lagunilla,to Garibaldi/Lagunilla,1.0
+B_CMX0200L8,B_3,B_02300L8000_0,B_SH0200L8000_0,Constitución de 1917,to Constitución de 1917,0.0
+B_CMX0200L8,B_2,B_02200L8000_1,B_SH0200L8000_1,Garibaldi/Lagunilla,to Garibaldi/Lagunilla,1.0
+B_CMX0200L8,B_2,B_02200L8000_0,B_SH0200L8000_0,Constitución de 1917,to Constitución de 1917,0.0
+B_CMX0200L8,B_1,B_02100L8000_1,B_SH0200L8000_1,Garibaldi/Lagunilla,to Garibaldi/Lagunilla,1.0
+B_CMX0200L8,B_1,B_02100L8000_0,B_SH0200L8000_0,Constitución de 1917,to Constitución de 1917,0.0
+B_CMX0200LA,B_3,B_02300LA000_1,B_SH0200LA000_1,Pantitlán,to Pantitlán,1.0
+B_CMX0200LA,B_3,B_02300LA000_0,B_SH0200LA000_0,La Paz,to La Paz,0.0
+B_CMX0200LA,B_2,B_02200LA000_1,B_SH0200LA000_1,Pantitlán,to Pantitlán,1.0
+B_CMX0200LA,B_2,B_02200LA000_0,B_SH0200LA000_0,La Paz,to La Paz,0.0
+B_CMX0200LA,B_1,B_02100LA000_1,B_SH0200LA000_1,Pantitlán,to Pantitlán,1.0
+B_CMX0200LA,B_1,B_02100LA000_0,B_SH0200LA000_0,La Paz,to La Paz,0.0
+B_CMX0200LB,B_3,B_02300LB000_1,B_SH0200LB000_1,Buenavista,to Buenavista,1.0
+B_CMX0200LB,B_3,B_02300LB000_0,B_SH0200LB000_0,Ciudad Azteca,to Ciudad Azteca,0.0
+B_CMX0200LB,B_2,B_02200LB000_1,B_SH0200LB000_1,Buenavista,to Buenavista,1.0
+B_CMX0200LB,B_2,B_02200LB000_0,B_SH0200LB000_0,Ciudad Azteca,to Ciudad Azteca,0.0
+B_CMX0200LB,B_1,B_02100LB000_1,B_SH0200LB000_1,Buenavista,to Buenavista,1.0
+B_CMX0200LB,B_1,B_02100LB000_0,B_SH0200LB000_0,Ciudad Azteca,to Ciudad Azteca,0.0
+B_CMX0200L1,B_3,B_02300L1000_1,B_SH0200L1000_1,Observatorio,Línea 1 to Observatorio,1.0
+B_CMX0200L1,B_3,B_02300L1000_0,B_SH0200L1000_0,Pantitlán,Línea 1 to Pantitlán,0.0
+B_CMX0200L1,B_2,B_02200L1000_1,B_SH0200L1000_1,Observatorio,Línea 1 to Observatorio,1.0
+B_CMX0200L1,B_2,B_02200L1000_0,B_SH0200L1000_0,Pantitlán,Línea 1 to Pantitlán,0.0
+B_CMX0200L1,B_1,B_02100L1000_1,B_SH0200L1000_1,Observatorio,Línea 1 to Observatorio,1.0
+B_CMX0200L1,B_1,B_02100L1000_0,B_SH0200L1000_0,Pantitlán,Línea 1 to Pantitlán,0.0
+B_CMX020L12,B_3,B_0230L12000_1,B_SH020L12000_1,Mixcoac,to Mixcoac,1.0
+B_CMX020L12,B_3,B_0230L12000_0,B_SH020L12000_0,Tláhuac,to Tláhuac,0.0
+B_CMX020L12,B_2,B_0220L12000_1,B_SH020L12000_1,Mixcoac,to Mixcoac,1.0
+B_CMX020L12,B_2,B_0220L12000_0,B_SH020L12000_0,Tláhuac,to Tláhuac,0.0
+B_CMX020L12,B_1,B_0210L12000_1,B_SH020L12000_1,Mixcoac,to Mixcoac,1.0
+B_CMX020L12,B_1,B_0210L12000_0,B_SH020L12000_0,Tláhuac,to Tláhuac,0.0
+B_CMX0300L6,B_1,B_03100L6002_1,B_SH0300L6002_1,El Rosario,Deportivo 18 de Marzo to El Rosario,1.0
+B_CMX0300L6,B_1,B_03100L6002_0,B_SH0300L6002_0,Deportivo 18 de Marzo,El Rosario to Deportivo 18 de Marzo,0.0
+B_CMX0300L6,B_1,B_03100L6001_1,B_SH0300L6001_1,Instituto Politécnico Nacional,Villa de Aragón to Instituto Politécnico Nacional,1.0
+B_CMX0300L6,B_1,B_03100L6001_0,B_SH0300L6001_0,Villa de Aragón,Instituto Politécnico Nacional to Villa de Aragón,0.0
+B_CMX0300L6,B_3,B_03300L6000_1,B_SH0300L6000_1,El Rosario,Villa de Aragón to El Rosario,1.0
+B_CMX0300L6,B_3,B_03300L6000_0,B_SH0300L6000_0,Villa de Aragón,El Rosario to Villa de Aragón,0.0
+B_CMX0300L6,B_2,B_03200L6000_1,B_SH0300L6000_1,El Rosario,Villa de Aragón to El Rosario,1.0
+B_CMX0300L6,B_2,B_03200L6000_0,B_SH0300L6000_0,Villa de Aragón,El Rosario to Villa de Aragón,0.0
+B_CMX0300L6,B_1,B_03100L6000_1,B_SH0300L6000_1,El Rosario,Villa de Aragón to El Rosario,1.0
+B_CMX0300L6,B_1,B_03100L6000_0,B_SH0300L6000_0,Villa de Aragón,El Rosario to Villa de Aragón,0.0
+B_CMX0300L1,B_3,B_03300L1006_1,B_SH0300L1006_1,Indios Verdes,Pueblo Sta. Cruz Atoyac to Indios Verdes,1.0
+B_CMX0300L1,B_3,B_03300L1006_0,B_SH0300L1006_0,Pueblo Sta. Cruz Atoyac,Indios Verdes to Pueblo Sta. Cruz Atoyac,0.0
+B_CMX0300L1,B_2,B_03200L1006_1,B_SH0300L1006_1,Indios Verdes,Pueblo Sta. Cruz Atoyac to Indios Verdes,1.0
+B_CMX0300L1,B_2,B_03200L1006_0,B_SH0300L1006_0,Pueblo Sta. Cruz Atoyac,Indios Verdes to Pueblo Sta. Cruz Atoyac,0.0
+B_CMX0300L1,B_1,B_03100L1006_1,B_SH0300L1006_1,Indios Verdes,Pueblo Sta. Cruz Atoyac to Indios Verdes,1.0
+B_CMX0300L1,B_1,B_03100L1006_0,B_SH0300L1006_0,Pueblo Sta. Cruz Atoyac,Indios Verdes to Pueblo Sta. Cruz Atoyac,0.0
+B_CMX0300L1,B_3,B_03300L1003_1,B_SH0300L1003_1,Buenavista,El Caminero to Buenavista,1.0
+B_CMX0300L1,B_3,B_03300L1003_0,B_SH0300L1003_0,El Caminero,Buenavista to El Caminero,0.0
+B_CMX0300L1,B_2,B_03200L1003_1,B_SH0300L1003_1,Buenavista,El Caminero to Buenavista,1.0
+B_CMX0300L1,B_2,B_03200L1003_0,B_SH0300L1003_0,El Caminero,Buenavista to El Caminero,0.0
+B_CMX0300L1,B_1,B_03100L1003_1,B_SH0300L1003_1,Buenavista,El Caminero to Buenavista,1.0
+B_CMX0300L1,B_1,B_03100L1003_0,B_SH0300L1003_0,El Caminero,Buenavista to El Caminero,0.0
+B_CMX0300L1,B_2,B_03200L1002_1,B_SH0300L1002_1,Indios Verdes,Dr. Gálvez to Indios Verdes,1.0
+B_CMX0300L1,B_2,B_03200L1002_0,B_SH0300L1002_0,Dr. Gálvez,Indios Verdes to Dr. Gálvez,0.0
+B_CMX0300L1,B_1,B_03100L1002_1,B_SH0300L1002_1,Indios Verdes,Dr. Gálvez to Indios Verdes,1.0
+B_CMX0300L1,B_1,B_03100L1002_0,B_SH0300L1002_0,Dr. Gálvez,Indios Verdes to Dr. Gálvez,0.0
+B_CMX0300L1,B_3,B_03300L1001_1,B_SH0300L1001_1,Indios Verdes,Glorieta Insurgentes to Indios Verdes,1.0
+B_CMX0300L1,B_3,B_03300L1001_0,B_SH0300L1001_0,Glorieta Insurgentes,Indios Verdes to Glorieta Insurgentes,0.0
+B_CMX0300L1,B_2,B_03200L1001_1,B_SH0300L1001_1,Indios Verdes,Glorieta Insurgentes to Indios Verdes,1.0
+B_CMX0300L1,B_2,B_03200L1001_0,B_SH0300L1001_0,Glorieta Insurgentes,Indios Verdes to Glorieta Insurgentes,0.0
+B_CMX0300L1,B_1,B_03100L1001_1,B_SH0300L1001_1,Indios Verdes,Glorieta Insurgentes to Indios Verdes,1.0
+B_CMX0300L1,B_1,B_03100L1001_0,B_SH0300L1001_0,Glorieta Insurgentes,Indios Verdes to Glorieta Insurgentes,0.0
+B_CMX0300L1,B_3,B_03300L1000_1,B_SH0300L1000_1,Indios Verdes,El Caminero to Indios Verdes,1.0
+B_CMX0300L1,B_3,B_03300L1000_0,B_SH0300L1000_0,El Caminero,Indios Verdes to El Caminero,0.0
+B_CMX0300L1,B_2,B_03200L1000_1,B_SH0300L1000_1,Indios Verdes,El Caminero to Indios Verdes,1.0
+B_CMX0300L1,B_2,B_03200L1000_0,B_SH0300L1000_0,El Caminero,Indios Verdes to El Caminero,0.0
+B_CMX0300L1,B_1,B_03100L1000_1,B_SH0300L1000_1,Indios Verdes,El Caminero to Indios Verdes,1.0
+B_CMX0300L1,B_1,B_03100L1000_0,B_SH0300L1000_0,El Caminero,Indios Verdes to El Caminero,0.0
+B_CMX0300L4,B_3,B_03300L4002_1,B_SH0300L4002_1,Buenavista (Norte),San Lázaro to Buenavista (Norte),1.0
+B_CMX0300L4,B_3,B_03300L4002_0,B_SH0300L4002_0,San Lázaro (Norte),Buenavista to San Lázaro (Norte),0.0
+B_CMX0300L4,B_2,B_03200L4002_1,B_SH0300L4002_1,Buenavista (Norte),San Lázaro to Buenavista (Norte),1.0
+B_CMX0300L4,B_2,B_03200L4002_0,B_SH0300L4002_0,San Lázaro (Norte),Buenavista to San Lázaro (Norte),0.0
+B_CMX0300L4,B_1,B_03100L4002_1,B_SH0300L4002_1,Buenavista (Norte),San Lázaro to Buenavista (Norte),1.0
+B_CMX0300L4,B_1,B_03100L4002_0,B_SH0300L4002_0,San Lázaro (Norte),Buenavista to San Lázaro (Norte),0.0
+B_CMX0300L4,B_3,B_03300L4001_1,B_SH0300L4001_1,Buenavista (Sur),San Lázaro to Buenavista (Sur),1.0
+B_CMX0300L4,B_3,B_03300L4001_0,B_SH0300L4001_0,San Lázaro (Sur),Buenavista to San Lázaro (Sur),0.0
+B_CMX0300L4,B_2,B_03200L4001_1,B_SH0300L4001_1,Buenavista (Sur),San Lázaro to Buenavista (Sur),1.0
+B_CMX0300L4,B_2,B_03200L4001_0,B_SH0300L4001_0,San Lázaro (Sur),Buenavista to San Lázaro (Sur),0.0
+B_CMX0300L4,B_1,B_03100L4001_1,B_SH0300L4001_1,Buenavista (Sur),San Lázaro to Buenavista (Sur),1.0
+B_CMX0300L4,B_1,B_03100L4001_0,B_SH0300L4001_0,San Lázaro (Sur),Buenavista to San Lázaro (Sur),0.0
+B_CMX0300L4,B_2,B_03200L4004_1,B_SH0300L4004_1,Hidalgo,Pantitlán to Hidalgo,1.0
+B_CMX0300L4,B_2,B_03200L4004_0,B_SH0300L4004_0,Pantitlán,Hidalgo to Pantitlán,0.0
+B_CMX0300L4,B_1,B_03100L4004_1,B_SH0300L4004_1,Hidalgo,Pantitlán to Hidalgo,1.0
+B_CMX0300L4,B_1,B_03100L4004_0,B_SH0300L4004_0,Pantitlán,Hidalgo to Pantitlán,0.0
+B_CMX0300L4,B_3,B_03300L4003_1,B_SH0300L4003_1,Hidalgo,Alameda Oriente to Hidalgo,1.0
+B_CMX0300L4,B_3,B_03300L4003_0,B_SH0300L4003_0,Alameda Oriente,Hidalgo to Alameda Oriente,0.0
+B_CMX0300L4,B_2,B_03200L4003_1,B_SH0300L4003_1,Hidalgo,Alameda Oriente to Hidalgo,1.0
+B_CMX0300L4,B_2,B_03200L4003_0,B_SH0300L4003_0,Alameda Oriente,Hidalgo to Alameda Oriente,0.0
+B_CMX0300L4,B_1,B_03100L4003_1,B_SH0300L4003_1,Hidalgo,Alameda Oriente to Hidalgo,1.0
+B_CMX0300L4,B_1,B_03100L4003_0,B_SH0300L4003_0,Alameda Oriente,Hidalgo to Alameda Oriente,0.0
+B_CMX0300L4,B_3,B_03300L4000_0,B_SH0300L4000_0,San Lázaro,San Lázaro to T1/T2,0.0
+B_CMX0300L4,B_2,B_03200L4000_0,B_SH0300L4000_0,San Lázaro,San Lázaro to T1/T2,0.0
+B_CMX0300L4,B_1,B_03100L4000_0,B_SH0300L4000_0,San Lázaro,San Lázaro to T1/T2,0.0
+B_CMX0300L2,B_0,B_03000L2006_1,B_SH0300L2006_1,Río Frío,Juárez to Río Frío,1.0
+B_CMX0300L2,B_0,B_03000L2006_0,B_SH0300L2006_0,Juárez,Río Frío to Juárez,0.0
+B_CMX0300L2,B_2,B_03200L2001_1,B_SH0300L2001_1,Etiopía,Tepalcates to Etiopía,1.0
+B_CMX0300L2,B_2,B_03200L2001_0,B_SH0300L2001_0,Tepalcates,Etiopía to Tepalcates,0.0
+B_CMX0300L2,B_1,B_03100L2001_1,B_SH0300L2001_1,Etiopía,Tepalcates to Etiopía,1.0
+B_CMX0300L2,B_1,B_03100L2001_0,B_SH0300L2001_0,Tepalcates,Etiopía to Tepalcates,0.0
+B_CMX0300L2,B_3,B_03300L2000_1,B_SH0300L2000_1,Tacubaya,Tepalcates to Tacubaya,1.0
+B_CMX0300L2,B_3,B_03300L2000_0,B_SH0300L2000_0,Tepalcates,Tacubaya to Tepalcates,0.0
+B_CMX0300L2,B_2,B_03200L2000_1,B_SH0300L2000_1,Tacubaya,Tepalcates to Tacubaya,1.0
+B_CMX0300L2,B_2,B_03200L2000_0,B_SH0300L2000_0,Tepalcates,Tacubaya to Tepalcates,0.0
+B_CMX0300L2,B_1,B_03100L2000_1,B_SH0300L2000_1,Tacubaya,Tepalcates to Tacubaya,1.0
+B_CMX0300L2,B_1,B_03100L2000_0,B_SH0300L2000_0,Tepalcates,Tacubaya to Tepalcates,0.0
+B_CMX0300L2,B_3,B_03300L2002_1,B_SH0300L2002_1,Colonia del Valle,Tepalcates to Colonia del Valle,1.0
+B_CMX0300L2,B_3,B_03300L2002_0,B_SH0300L2002_0,Tepalcates,Colonia del Valle to Tepalcates,0.0
+B_CMX0300L2,B_2,B_03200L2002_1,B_SH0300L2002_1,Colonia del Valle,Tepalcates to Colonia del Valle,1.0
+B_CMX0300L2,B_2,B_03200L2002_0,B_SH0300L2002_0,Tepalcates,Colonia del Valle to Tepalcates,0.0
+B_CMX0300L2,B_1,B_03100L2002_1,B_SH0300L2002_1,Colonia del Valle,Tepalcates to Colonia del Valle,1.0
+B_CMX0300L2,B_1,B_03100L2002_0,B_SH0300L2002_0,Tepalcates,Colonia del Valle to Tepalcates,0.0
+B_CMX0300L2,B_0,B_03000L2005_1,B_SH0300L2005_1,Dr. Gálvez,Rojo Gómez to Dr. Gálvez,1.0
+B_CMX0300L2,B_0,B_03000L2005_0,B_SH0300L2005_0,Rojo Gómez,Dr. Gálvez to Rojo Gómez,0.0
+B_CMX0300L3,B_3,B_03300L3004_1,B_SH0300L3004_1,Indios Verdes,Pueblo Sta. Cruz Atoyac to Indios Verdes,1.0
+B_CMX0300L3,B_3,B_03300L3004_0,B_SH0300L3004_0,Pueblo Sta. Cruz Atoyac,Indios Verdes to Pueblo Sta. Cruz Atoyac,0.0
+B_CMX0300L3,B_2,B_03200L3004_1,B_SH0300L3004_1,Indios Verdes,Pueblo Sta. Cruz Atoyac to Indios Verdes,1.0
+B_CMX0300L3,B_2,B_03200L3004_0,B_SH0300L3004_0,Pueblo Sta. Cruz Atoyac,Indios Verdes to Pueblo Sta. Cruz Atoyac,0.0
+B_CMX0300L3,B_1,B_03100L3004_1,B_SH0300L3004_1,Indios Verdes,Pueblo Sta. Cruz Atoyac to Indios Verdes,1.0
+B_CMX0300L3,B_1,B_03100L3004_0,B_SH0300L3004_0,Pueblo Sta. Cruz Atoyac,Indios Verdes to Pueblo Sta. Cruz Atoyac,0.0
+B_CMX0300L3,B_3,B_03300L3003_1,B_SH0300L3003_1,Tenayuca,Buenavista to Tenayuca,1.0
+B_CMX0300L3,B_3,B_03300L3003_0,B_SH0300L3003_0,Buenavista,Tenayuca to Buenavista,0.0
+B_CMX0300L3,B_2,B_03200L3003_1,B_SH0300L3003_1,Tenayuca,Buenavista to Tenayuca,1.0
+B_CMX0300L3,B_2,B_03200L3003_0,B_SH0300L3003_0,Buenavista,Tenayuca to Buenavista,0.0
+B_CMX0300L3,B_1,B_03100L3003_1,B_SH0300L3003_1,Tenayuca,Buenavista to Tenayuca,1.0
+B_CMX0300L3,B_1,B_03100L3003_0,B_SH0300L3003_0,Buenavista,Tenayuca to Buenavista,0.0
+B_CMX0300L3,B_3,B_03300L3002_1,B_SH0300L3002_1,Tenayuca,La Raza to Tenayuca,1.0
+B_CMX0300L3,B_3,B_03300L3002_0,B_SH0300L3002_0,La Raza,Tenayuca to La Raza,0.0
+B_CMX0300L3,B_2,B_03200L3002_1,B_SH0300L3002_1,Tenayuca,La Raza to Tenayuca,1.0
+B_CMX0300L3,B_2,B_03200L3002_0,B_SH0300L3002_0,La Raza,Tenayuca to La Raza,0.0
+B_CMX0300L3,B_1,B_03100L3002_1,B_SH0300L3002_1,Tenayuca,La Raza to Tenayuca,1.0
+B_CMX0300L3,B_1,B_03100L3002_0,B_SH0300L3002_0,La Raza,Tenayuca to La Raza,0.0
+B_CMX0300L3,B_2,B_03200L3001_1,B_SH0300L3001_1,Tenayuca,Balderas to Tenayuca,1.0
+B_CMX0300L3,B_2,B_03200L3001_0,B_SH0300L3001_0,Balderas,Tenayuca to Balderas,0.0
+B_CMX0300L3,B_1,B_03100L3001_1,B_SH0300L3001_1,Tenayuca,Balderas to Tenayuca,1.0
+B_CMX0300L3,B_1,B_03100L3001_0,B_SH0300L3001_0,Balderas,Tenayuca to Balderas,0.0
+B_CMX0300L3,B_3,B_03300L3000_1,B_SH0300L3000_1,Tenayuca,Pueblo Sta. Cruz Atoyac to Tenayuca,1.0
+B_CMX0300L3,B_3,B_03300L3000_0,B_SH0300L3000_0,Pueblo Sta. Cruz Atoyac,Tenayuca to Pueblo Sta. Cruz Atoyac,0.0
+B_CMX0300L3,B_2,B_03200L3000_1,B_SH0300L3000_1,Tenayuca,Pueblo Sta. Cruz Atoyac to Tenayuca,1.0
+B_CMX0300L3,B_2,B_03200L3000_0,B_SH0300L3000_0,Pueblo Sta. Cruz Atoyac,Tenayuca to Pueblo Sta. Cruz Atoyac,0.0
+B_CMX0300L3,B_1,B_03100L3000_1,B_SH0300L3000_1,Tenayuca,Pueblo Sta. Cruz Atoyac to Tenayuca,1.0
+B_CMX0300L3,B_1,B_03100L3000_0,B_SH0300L3000_0,Pueblo Sta. Cruz Atoyac,Tenayuca to Pueblo Sta. Cruz Atoyac,0.0
+B_CMX0300L7,B_2,B_03200L7007_1,B_SH0300L7007_1,Garibaldi,Campo Marte to Garibaldi,1.0
+B_CMX0300L7,B_2,B_03200L7007_0,B_SH0300L7007_0,Campo Marte,Garibaldi to Campo Marte,0.0
+B_CMX0300L7,B_1,B_03100L7007_1,B_SH0300L7007_1,Garibaldi,Campo Marte to Garibaldi,1.0
+B_CMX0300L7,B_1,B_03100L7007_0,B_SH0300L7007_0,Campo Marte,Garibaldi to Campo Marte,0.0
+B_CMX0300L7,B_1,B_03100L7005_1,B_SH0300L7005_1,Indios Verdes,Hamburgo to Indios Verdes,1.0
+B_CMX0300L7,B_1,B_03100L7005_0,B_SH0300L7005_0,Hamburgo,Indios Verdes to Hamburgo,0.0
+B_CMX0300L7,B_1,B_03100L7004_1,B_SH0300L7004_1,Hospital Infantil La Villa,La Diana to Hospital Infantil La Villa,1.0
+B_CMX0300L7,B_1,B_03100L7004_0,B_SH0300L7004_0,La Diana,Hospital Infantil La Villa to La Diana,0.0
+B_CMX0300L7,B_3,B_03300L7003_1,B_SH0300L7003_1,Indios Verdes,La Diana to Indios Verdes,1.0
+B_CMX0300L7,B_3,B_03300L7003_0,B_SH0300L7003_0,La Diana,Indios Verdes to La Diana,0.0
+B_CMX0300L7,B_1,B_03100L7003_1,B_SH0300L7003_1,Indios Verdes,La Diana to Indios Verdes,1.0
+B_CMX0300L7,B_1,B_03100L7003_0,B_SH0300L7003_0,La Diana,Indios Verdes to La Diana,0.0
+B_CMX0300L7,B_2,B_03200L7001_1,B_SH0300L7001_1,Hospital Infantil La Villa,Campo Marte to Hospital Infantil La Villa,1.0
+B_CMX0300L7,B_2,B_03200L7001_0,B_SH0300L7001_0,Campo Marte,Hospital Infantil La Villa to Campo Marte,0.0
+B_CMX0300L7,B_3,B_03300L7001_1,B_SH0300L7001_1,Hospital Infantil La Villa,Campo Marte to Hospital Infantil La Villa,1.0
+B_CMX0300L7,B_3,B_03300L7001_0,B_SH0300L7001_0,Campo Marte,Hospital Infantil La Villa to Campo Marte,0.0
+B_CMX0300L7,B_1,B_03100L7001_1,B_SH0300L7001_1,Hospital Infantil La Villa,Campo Marte Hospital Infantil La Villa,1.0
+B_CMX0300L7,B_1,B_03100L7001_0,B_SH0300L7001_0,Campo Marte,Hospital Infantil La Villa to Campo Marte,0.0
+B_CMX0300L7,B_3,B_03300L7000_1,B_SH0300L7000_1,Indios Verdes,Campo Marte to Indios Verdes,1.0
+B_CMX0300L7,B_3,B_03300L7000_0,B_SH0300L7000_0,Campo Marte,Indios Verdes to Campo Marte,0.0
+B_CMX0300L7,B_2,B_03200L7000_1,B_SH0300L7000_1,Indios Verdes,Campo Marte to Indios Verdes,1.0
+B_CMX0300L7,B_2,B_03200L7000_0,B_SH0300L7000_0,Campo Marte,Indios Verdes to Campo Marte,0.0
+B_CMX0300L7,B_1,B_03100L7000_1,B_SH0300L7000_1,Indios Verdes,Campo Marte to Indios Verdes,1.0
+B_CMX0300L7,B_1,B_03100L7000_0,B_SH0300L7000_0,Campo Marte,Indios Verdes to Campo Marte,0.0
+B_CMX03SL01,B_1,B_031SEL1001_1,B_SH03SL01001_1,Glorieta Cuitláhuac,Alameda Tacubaya to Glorieta Cuitláhuac,1.0
+B_CMX03SL01,B_1,B_031SEL1001_0,B_SH03SL01001_0,Alameda Tacubaya,Glorieta Cuitláhuac to Alameda Tacubaya,0.0
+B_CMX03SL01,B_3,B_033SEL1000_1,B_SH03SL01000_1,París,Alameda Tacubaya a París,1.0
+B_CMX03SL01,B_3,B_033SEL1000_0,B_SH03SL01000_0,Alameda Tacubaya,París a Alameda Tacubaya,0.0
+B_CMX03SL01,B_4,B_034SEL1000_1,B_SH03SL01000_1,París,Alameda Tacubaya a París,1.0
+B_CMX03SL01,B_4,B_034SEL1000_0,B_SH03SL01000_0,Alameda Tacubaya,París a Alameda Tacubaya,0.0
+B_CMX0300L5,B_1,B_03100L5003_1,B_SH0300L5003_1,Las Bombas,Preparatoria 1 to San Lázaro Sur,1.0
+B_CMX0300L5,B_1,B_03100L5003_0,B_SH0300L5003_0,Río de los Remedios,San Lázaro Sur to Preparatoria 1,0.0
+B_CMX0300L5,B_1,B_03100L5004_1,B_SH0300L5004_1,Las Bombas,Río de los Remedios to Las Bombas,1.0
+B_CMX0300L5,B_1,B_03100L5004_0,B_SH0300L5004_0,Río de los Remedios,Las Bombas to Río de los Remedios,0.0
+B_CMX0300L5,B_1,B_03100L5002_1,B_SH0300L5002_1,San Lázaro Sur,Las Bombas to San Lázaro Sur,1.0
+B_CMX0300L5,B_1,B_03100L5002_0,B_SH0300L5002_0,Las Bombas,San Lázaro Sur to Las Bombas,0.0
+B_CMX0300L5,B_1,B_03100L5001_1,B_SH0300L5001_1,Río de los Remedios,San Lázaro Norte to Río de los Remedios,1.0
+B_CMX0300L5,B_1,B_03100L5001_0,B_SH0300L5001_0,San Lázaro,Río de los Remedios to San Lázaro Norte,0.0
+B_CMX0300L5,B_3,B_03300L5000_1,B_SH0300L5000_1,Río de los Remedios,Preparatoria 1 to Río de los Remedios,1.0
+B_CMX0300L5,B_3,B_03300L5000_0,B_SH0300L5000_0,Preparatoria 1,Río de los Remedios to Preparatoria 1,0.0
+B_CMX0300L5,B_2,B_03200L5000_1,B_SH0300L5000_1,Río de los Remedios,Preparatoria 1 to Río de los Remedios,1.0
+B_CMX0300L5,B_2,B_03200L5000_0,B_SH0300L5000_0,Preparatoria 1,Río de los Remedios to Preparatoria 1,0.0
+B_CMX0300L5,B_1,B_03100L5000_1,B_SH0300L5000_1,Río de los Remedios,Preparatoria 1 to Río de los Remedios,1.0
+B_CMX0300L5,B_1,B_03100L5000_0,B_SH0300L5000_0,Preparatoria 1,Río de los Remedios to Preparatoria 1,0.0
+B_CMX0200L9,B_3,B_02300L9000_1,B_SH0200L9000_1,Pantitlán,Tacubaya to Pantitlán,1.0
+B_CMX0200L9,B_3,B_02300L9000_0,B_SH0200L9000_0,Tacubaya,Pantitlán to Tacubaya,0.0
+B_CMX0200L9,B_2,B_02200L9000_1,B_SH0200L9000_1,Pantitlán,Tacubaya to Pantitlán,1.0
+B_CMX0200L9,B_2,B_02200L9000_0,B_SH0200L9000_0,Tacubaya,Pantitlán to Tacubaya,0.0
+B_CMX0200L9,B_1,B_02100L9000_1,B_SH0200L9000_1,Pantitlán,Tacubaya to Pantitlán,1.0
+B_CMX0200L9,B_1,B_02100L9000_0,B_SH0200L9000_0,Tacubaya,Pantitlán to Tacubaya,0.0
