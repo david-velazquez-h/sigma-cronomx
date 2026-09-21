@@ -36,7 +36,7 @@ Se investigaron los GTFS iniciales sobre prácticamete toda la SEMOVI de la CDMX
 
 ---
 
-2026-09-20 — Max
+### 2026-09-20 — Max
 
 Se configuró el entorno local en Jupyter Lab dentro de iCloud y se subió el archivo `analisis_piloto_ipt.ipynb` a la carpeta `docs/IPT`. Se implementó la validación piloto de los tres modelos matemáticos de Pobreza de Tiempo ($IPT_{gap}$, $IPT_{rel}$ y $IPT_{comp}$) para los municipios de prueba, documentando la metodología y los criterios de diagnóstico para la revisión del equipo.
 
