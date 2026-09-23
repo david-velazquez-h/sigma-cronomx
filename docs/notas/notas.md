@@ -42,7 +42,7 @@ Se configuró el entorno local en Jupyter Lab dentro de iCloud y se subió el ar
 
 ---
 
-2026-09-22 — Max
+### 2026-09-22 — Max
 
-Se actualizó la documentación del proyecto en la carpeta `docs/IPT` incorporando dos entregables clave: el archivo `actualizacion_metodologia.md` con el marco teórico y la justificación de la fórmula compuesta ($IPT_{comp}$), y `modelo_datos_reales_ipt.md` (o el respaldo analítico del modelo) junto con el grafo visual generado (`grafo_red_cronomx.png`)[cite: 3]. Se documentó la integración de la base de datos GTFS real mediante el motor de grafos en NetworkX y el algoritmo de Dijkstra para evaluar la accesibilidad multi-destino desde las zonas periféricas hacia los polos de empleo de la ZMVM.
+Se actualizó la documentación del proyecto en la carpeta `docs/IPT` incorporando dos entregables clave: el archivo `actualizacion_metodologia.md` con el marco teórico y la justificación de la fórmula compuesta ($IPT_{comp}$), y `modelo_datos_reales_ipt.md` (o el respaldo analítico del modelo) junto con el grafo visual generado (`grafo_red_cronomx.png`). Se documentó la integración de la base de datos GTFS real mediante el motor de grafos en NetworkX y el algoritmo de Dijkstra para evaluar la accesibilidad multi-destino desde las zonas periféricas hacia los polos de empleo de la ZMVM.
 *Agreguen su entrada arriba de esta línea, con la fecha más reciente al final del archivo (orden cronológico).*
