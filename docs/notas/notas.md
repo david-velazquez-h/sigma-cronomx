@@ -30,4 +30,23 @@ También se recortó el logo `LOGO_1_CRONO-MX.png` y se camió el nombre a `logo
 
 ---
 
+### 2026-09-18 — David
+
+Se investigaron los GTFS iniciales sobre prácticamete toda la SEMOVI de la CDMX, se limpiaron los archivos GTFS para qu solo quedaran los del metro y metrobús para esta primer versión de CronoMX, y se eliminó `afluenciametrobus_simple_limpia.csv` archivo que era innecesario para esta primer versión.
+
+---
+
+### 2026-09-20 — Max
+
+Se configuró el entorno local en Jupyter Lab dentro de iCloud y se subió el archivo `analisis_piloto_ipt.ipynb` a la carpeta `docs/IPT`. Se implementó la validación piloto de los tres modelos matemáticos de Pobreza de Tiempo ($IPT_{gap}$, $IPT_{rel}$ y $IPT_{comp}$) para los municipios de prueba, documentando la metodología y los criterios de diagnóstico para la revisión del equipo.
+
+---
+
+### 2026-09-22 — Max
+
+Se actualizó la documentación del proyecto en la carpeta `docs/IPT` incorporando dos entregables clave: el archivo `actualizacion_metodologia.md` con el marco teórico y la justificación de la fórmula compuesta ($IPT_{comp}$), y `modelo_datos_reales_ipt.md` (o el respaldo analítico del modelo) junto con el grafo visual generado (`grafo_red_cronomx.png`). Se documentó la integración de la base de datos GTFS real mediante el motor de grafos en NetworkX y el algoritmo de Dijkstra para evaluar la accesibilidad multi-destino desde las zonas periféricas hacia los polos de empleo de la ZMVM.
+
+---
+
+
 *Agreguen su entrada arriba de esta línea, con la fecha más reciente al final del archivo (orden cronológico).*
