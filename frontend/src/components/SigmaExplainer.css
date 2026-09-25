@@ -1,0 +1,64 @@
+.sigma-explainer {
+  background: #0a0a0a;
+  color: #f2f0ea;
+  padding: 64px clamp(24px, 6vw, 72px) 80px;
+  border-top: 1px solid rgba(242, 240, 234, 0.08);
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.sigma-explainer-logo {
+  height: 150px;
+  width: auto;
+  flex-shrink: 0;
+}
+
+.sigma-explainer-body {
+  flex: 1;
+}
+
+.sigma-explainer-body h2 {
+  font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  margin: 0 0 14px;
+}
+
+.sigma-explainer-body p {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: #8a8a83;
+  max-width: 60ch;
+  margin: 0 0 20px;
+}
+
+.sigma-explainer-link {
+  display: inline-block;
+  color: #f2f0ea;
+  font-size: 0.88rem;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(242, 240, 234, 0.3);
+  padding-bottom: 2px;
+  transition: border-color 0.15s ease;
+}
+
+.sigma-explainer-link:hover {
+  border-color: #f2f0ea;
+}
+
+@media (max-width: 640px) {
+  .sigma-explainer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .sigma-explainer-logo {
+    height: 110px;
+  }
+
+  .sigma-explainer-body p {
+    max-width: 100%;
+  }
+}

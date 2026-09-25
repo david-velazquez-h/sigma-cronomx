@@ -1,0 +1,45 @@
+.audiencias {
+  background: #0a0a0a;
+  color: #f2f0ea;
+  padding: 64px clamp(24px, 6vw, 72px);
+  border-top: 1px solid rgba(242, 240, 234, 0.08);
+}
+
+.audiencias-title {
+  font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  margin: 0 0 32px;
+}
+
+.audiencias-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.audiencias-card {
+  background: #161616;
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.audiencias-card h3 {
+  font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+  font-weight: 500;
+  font-size: 1.05rem;
+  margin: 0 0 10px;
+}
+
+.audiencias-card p {
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: #8a8a83;
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .audiencias-grid {
+    grid-template-columns: 1fr;
+  }
+}
