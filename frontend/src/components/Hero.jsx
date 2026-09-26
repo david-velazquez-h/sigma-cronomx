@@ -33,7 +33,7 @@ export default function Hero() {
 
         <div className="hero-stats">
           <div className="hero-stat-item">
-            <span className="hero-stat-number">3</span>
+            <span className="hero-stat-number">4</span>
             <span className="hero-stat-label">Municipios piloto</span>
           </div>
           <div className="hero-stat-item">

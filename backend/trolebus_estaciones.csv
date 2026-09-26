@@ -1,0 +1,796 @@
+nombre,lat,lon,alcaldia_municipio,num_comercial
+16 de Septiembre,19.339366,-99.115945,Coyoacán,7
+16 de Septiembre,19.48978,-99.19431,Azcapotzalco,6
+16 de Septiembre,19.48978,-99.19431,Azcapotzalco,4
+22 de Febrero,19.47736,-99.18422,Azcapotzalco,6
+22 de Febrero,19.47787,-99.18515,Azcapotzalco,6
+22 de Febrero,19.47736,-99.18422,Azcapotzalco,4
+22 de Febrero,19.47787,-99.18515,Azcapotzalco,4
+2a cda. de Tula,19.47394,-99.18129,Azcapotzalco,6
+2a cda. de Tula,19.47394,-99.18129,Azcapotzalco,4
+3ra. cda. Av 503,19.45996,-99.09568,Gustavo A. Madero,4
+5 de Febrero,19.48424,-99.11341,Gustavo A. Madero,5
+5 de Febrero,19.47993,-99.11575,Gustavo A. Madero,5
+5 de Febrero,19.4144,-99.13688,Cuauhtémoc,2
+5 de Febrero,19.41373,-99.13703,Cuauhtémoc,2
+Acahualtepec,19.35763,-99.00154,Iztapalapa,10
+Acatitlán,19.35528,-99.00813,Iztapalapa,10
+Aconchi,19.41397,-99.11599,Venustiano Carranza,2
+Adolfo Prieto,19.37232,-99.17212,Benito Juárez,3
+Agrario,19.332679,-99.108209,Iztapalapa,7
+Ahuacatitla,19.48426,-99.18385,Azcapotzalco,6
+Ahuacatitla,19.48426,-99.18385,Azcapotzalco,4
+Ahuehuete,19.42851,-99.16479,Cuauhtémoc,5
+Ahuehuete,19.42804,-99.16518,Cuauhtémoc,5
+Ahuehuetes,19.49559,-99.19853,Azcapotzalco,6
+Ahuehuetes,19.49559,-99.19853,Azcapotzalco,4
+Ajusco,19.35908,-99.15179,Benito Juárez,1
+Ajusco,19.35865,-99.15245,Benito Juárez,1
+Alfareros,19.50808,-99.2083,Azcapotzalco,6
+Alfareros,19.50856,-99.20836,Azcapotzalco,6
+Alfareros,19.50808,-99.2083,Azcapotzalco,4
+Alfareros,19.50856,-99.20836,Azcapotzalco,4
+Álvaro Obregón,19.41657,-99.167,Cuauhtémoc,2
+Amajac,19.434,-99.15316,Cuauhtémoc,5
+Amajac,19.43353,-99.15358,Cuauhtémoc,5
+América,19.343609,-99.15495,Coyoacán,7
+América,19.34523,-99.14946,Coyoacán,1
+América,19.34589,-99.14987,Coyoacán,1
+Andalucia,19.48501,-99.18868,Azcapotzalco,6
+Andalucia,19.48501,-99.18868,Azcapotzalco,4
+Andrés Molina Enríquez,19.38377,-99.12973,Iztacalco,9
+Ángel Urraza,19.37998,-99.14812,Benito Juárez,1
+Ángel Urraza,19.37879,-99.1482,Benito Juárez,1
+Aniceto Ortega,19.37101,-99.16682,Benito Juárez,3
+Aniceto Ortega,19.37117,-99.16694,Benito Juárez,3
+Antonio Peña y Reyes,19.41326,-99.10899,Venustiano Carranza,2
+Antonio Solís,19.40965,-99.14433,Cuauhtémoc,1
+Antropólogos,19.38209,-99.11781,Iztapalapa,9
+Apatlaco,19.3806,-99.10152,Iztacalco,9
+Aquiles Serdán,19.49024,-99.1952,Azcapotzalco,6
+Aquiles Serdán,19.49087,-99.19524,Azcapotzalco,6
+Aquiles Serdán,19.49024,-99.1952,Azcapotzalco,4
+Aquiles Serdán,19.49087,-99.19524,Azcapotzalco,4
+Arboledas,19.36434,-99.13366,Iztapalapa,3
+Arcos de Aragón,19.4778,-99.09441,Gustavo A. Madero,5
+Arcos de Aragón,19.47762,-99.09494,Gustavo A. Madero,5
+Asia,19.344081,-99.158543,Coyoacán,7
+Atzintlí,19.34516,-99.02164,Iztapalapa,10
+Auer,19.4722,-99.14207,Gustavo A. Madero,4
+Augusto Rodín,19.37469,-99.18284,Benito Juárez,3
+Augusto Rodín,19.37469,-99.18335,Benito Juárez,3
+Av. 11,19.32026,-99.083916,Iztapalapa,7
+Av. 11,19.320076,-99.084326,Iztapalapa,7
+Av. 45 Metros,19.49613,-99.1407,Gustavo A. Madero,8
+Av. 503,19.45746,-99.09696,Gustavo A. Madero,4
+Av. 506,19.45809,-99.09638,Gustavo A. Madero,4
+Av. 535,19.45027,-99.09134,Gustavo A. Madero,4
+Av. Aquiles Serdán,19.50645,-99.20832,Azcapotzalco,6
+Av. Aquiles Serdán,19.50645,-99.20832,Azcapotzalco,4
+Av. Azcapotzalco,19.47843,-99.18715,Azcapotzalco,6
+Av. Azcapotzalco,19.47843,-99.18715,Azcapotzalco,4
+Av. Central,19.50586,-99.14836,Gustavo A. Madero,8
+Av. Copilco,19.337715,-99.183604,Coyoacán,7
+Av. Copilco,19.337171,-99.184349,Coyoacán,7
+Av. Cuitláhuac,19.46849,-99.17533,Azcapotzalco,4
+Av. de las Culturas,19.51119,-99.19853,Azcapotzalco,6
+Av. de las Culturas,19.51119,-99.19853,Azcapotzalco,4
+Av. de los Ángeles,19.50196,-99.19778,Azcapotzalco,6
+Av. de los Ángeles,19.50196,-99.19778,Azcapotzalco,4
+Av. del PeNón,19.43721,-99.0862,Venustiano Carranza,4
+Av. del PeNón,19.43978,-99.08994,Venustiano Carranza,4
+Av. del Rosario,19.50182,-99.20439,Azcapotzalco,6
+Av. del Rosario,19.50182,-99.20439,Azcapotzalco,4
+Av. Jardín,19.47353,-99.15815,Azcapotzalco,4
+Av. Jardín,19.47377,-99.15852,Azcapotzalco,4
+Av. Marina Nacional,19.44763,-99.18232,Miguel Hidalgo,6
+Av. Marina Nacional,19.44893,-99.18236,Miguel Hidalgo,6
+Av. México,19.37025,-99.16353,Benito Juárez,3
+Av. Nueces,19.47065,-99.16914,Azcapotzalco,4
+Av. Presidente Masaryk,19.43088,-99.18078,Miguel Hidalgo,6
+Av. Presidente Masaryk,19.43176,-99.18134,Miguel Hidalgo,6
+Av. Río Churubusco,19.40288,-99.09875,Iztacalco,2
+Av. Tláhuac,19.337955,-99.10939,Iztapalapa,7
+Av. Universidad,19.346929,-99.179989,Coyoacán,7
+Aztacalco,19.50859,-99.19783,Azcapotzalco,6
+Aztacalco,19.50859,-99.19783,Azcapotzalco,4
+Aztahuacán,19.34466,-99.02607,Iztapalapa,10
+Bachilleres 1,19.51145,-99.19756,Azcapotzalco,6
+Bachilleres 1,19.51145,-99.19756,Azcapotzalco,4
+Bahamas,19.322549,-99.097268,Iztapalapa,7
+Balboa,19.36468,-99.14527,Benito Juárez,3
+Basilio Romo Anguiano,19.47054,-99.12424,Gustavo A. Madero,5
+Beethoven,19.45977,-99.12834,Cuauhtémoc,5
+Begonias,19.46352,-99.17769,Azcapotzalco,6
+Bélgica,19.36852,-99.14486,Benito Juárez,3
+Bellas Artes,19.43675,-99.14042,Cuauhtémoc,1
+Bellas Artes,19.43713,-99.1405,Cuauhtémoc,1
+Biblioteca ESIA,19.50429,-99.13841,Gustavo A. Madero,8
+Bolívar,19.41501,-99.14086,Cuauhtémoc,2
+Bolívar,19.41406,-99.14141,Cuauhtémoc,2
+Boulevard Puerto Aéreo,19.42561,-99.09353,Venustiano Carranza,4
+Buen Tono,19.46917,-99.1282,Gustavo A. Madero,4
+Buen Tono,19.46908,-99.12869,Gustavo A. Madero,4
+Cacahuamilpa,19.41661,-99.16763,Cuauhtémoc,2
+Calle 11,19.32064,-99.085889,Iztapalapa,7
+Calle 11,19.320403,-99.086092,Iztapalapa,7
+Calle 12,19.47348,-99.15428,Azcapotzalco,4
+Calle 12,19.47331,-99.15466,Azcapotzalco,4
+Calle 28,19.47333,-99.14702,Azcapotzalco,4
+Calle 509,19.45459,-99.09611,Gustavo A. Madero,4
+Calle 509,19.4543,-99.09631,Gustavo A. Madero,4
+Calle 525,19.45217,-99.09335,Gustavo A. Madero,4
+Calle 549,19.44771,-99.08855,Gustavo A. Madero,4
+Callejón Resurrección,19.41348,-99.12617,Venustiano Carranza,2
+Calpulalpan,19.49058,-99.06748,Gustavo A. Madero,5
+Calpulalpan,19.49038,-99.06745,Nezahualcóyotl,5
+Calzada de Guadalupe,19.46788,-99.12412,Gustavo A. Madero,4
+Calzada de la Viga,19.41335,-99.12884,Cuauhtémoc,2
+Calzada de la Viga,19.41352,-99.12758,Venustiano Carranza,2
+Calzada de los Misterios,19.46831,-99.12475,Gustavo A. Madero,4
+Calzada de los Misterios,19.46826,-99.12526,Gustavo A. Madero,4
+Calzada Ignacio Zaragoza,19.40815,-99.07709,Iztacalco,2
+Calzada Ignacio Zaragoza,19.40949,-99.07699,Venustiano Carranza,2
+Calzada San Juan de Aragón,19.48406,-99.11335,Gustavo A. Madero,5
+Calz. de la Viga,19.38243,-99.12187,Iztacalco,9
+Calz. de la Viga,19.38252,-99.12276,Iztacalco,9
+Calz. México Tacuba,19.45692,-99.18026,Miguel Hidalgo,6
+Calz. México Tacuba,19.45602,-99.18065,Miguel Hidalgo,6
+Camarones,19.47948,-99.18884,Azcapotzalco,6
+Camarones,19.47948,-99.18884,Azcapotzalco,4
+Camino de la Unión,19.48268,-99.07619,Gustavo A. Madero,5
+Camino de San Juan de Aragón,19.47369,-99.07922,Gustavo A. Madero,5
+Camino Sur,19.48172,-99.07681,Gustavo A. Madero,5
+Campos Elíseos,19.42853,-99.17987,Miguel Hidalgo,6
+Campos Elíseos,19.42877,-99.18015,Miguel Hidalgo,6
+Canal del Norte,19.45279,-99.13095,Cuauhtémoc,5
+Canal de Miramontes,19.340872,-99.136097,Coyoacán,7
+Canal de Miramontes,19.341221,-99.137121,Coyoacán,7
+Canal de Tezontle,19.38839,-99.1169,Iztacalco,9
+Canarias,19.36506,-99.14774,Benito Juárez,3
+Cancha de Entrenamiento Pieles Rojas,19.50418,-99.13949,Gustavo A. Madero,8
+Cantera,19.311884,-99.17085,Coyoacán,12
+Cantera,19.311979,-99.170895,Coyoacán,12
+Cantil,19.329655,-99.15428,Coyoacán,12
+Cantil,19.329607,-99.154391,Coyoacán,12
+Carbono,19.51114,-99.19962,Azcapotzalco,6
+Carbono,19.51114,-99.19962,Azcapotzalco,4
+Casa del Peregino Juan Diego,19.48331,-99.10985,Gustavo A. Madero,5
+Casa del Peregrino Juan Diego,19.48342,-99.10967,Gustavo A. Madero,5
+CCH Azcapotzalco,19.49898,-99.20173,Azcapotzalco,6
+CCH Azcapotzalco,19.49923,-99.20249,Azcapotzalco,6
+CCH Azcapotzalco,19.49898,-99.20173,Azcapotzalco,4
+CCH Azcapotzalco,19.49923,-99.20249,Azcapotzalco,4
+CCH Vallejo,19.48392,-99.14217,Gustavo A. Madero,1
+C. de Guadalupe,19.46781,-99.12332,Gustavo A. Madero,4
+CECyT 13,19.339418,-99.129274,Coyoacán,7
+CECyT 13,19.339509,-99.130336,Coyoacán,7
+Cefiro,19.308041,-99.179694,Coyoacán,12
+Cefiro,19.307384,-99.180866,Coyoacán,12
+Cenlex,19.49594,-99.13929,Gustavo A. Madero,8
+Cenlex,19.49566,-99.13935,Gustavo A. Madero,8
+Centéotl,19.48847,-99.19332,Azcapotzalco,6
+Centéotl,19.48847,-99.19332,Azcapotzalco,4
+Central,19.34234,-99.14748,Coyoacán,12
+Central,19.342344,-99.147477,Coyoacán,7
+Central,19.34234,-99.14748,Coyoacán,1
+Central de Inteligencia de Cómputo,19.50494,-99.14214,Gustavo A. Madero,8
+Central de Inteligencia de Cómputo,19.50466,-99.14222,Gustavo A. Madero,8
+Central del Norte,19.47942,-99.14038,Gustavo A. Madero,1
+Central del Sur,19.341269,-99.139155,Coyoacán,7
+Central del Sur,19.3411,-99.13909,Coyoacán,1
+Central Sur,19.47324,-99.15069,Azcapotzalco,4
+Central Sur,19.47304,-99.15148,Azcapotzalco,4
+Centro de Formación Educativa,19.497,-99.1419,Gustavo A. Madero,8
+Centro de Formación Educativa,19.49674,-99.14204,Gustavo A. Madero,8
+Centro de Rehabilitación,19.3667,-99.15803,Benito Juárez,3
+Centro SCOP,19.3944,-99.14609,Benito Juárez,1
+Centro SCOP,19.39542,-99.14611,Benito Juárez,1
+CerdeNa,19.47262,-99.16292,Azcapotzalco,4
+Cerrada Manuel Stampa,19.4991,-99.14681,Gustavo A. Madero,8
+Cerro Acasulco,19.34182,-99.181566,Coyoacán,7
+Cerro Acasulco,19.34211,-99.181713,Coyoacán,7
+Cerro del Cubilete,19.340927,-99.134495,Coyoacán,7
+Cerro del Hombre,19.346267,-99.176538,Coyoacán,7
+Cerro del Hombre,19.346127,-99.17723,Coyoacán,7
+Cerro Huitzilac,19.341575,-99.141447,Coyoacán,7
+Cerro Hutzilac,19.34157,-99.14145,Coyoacán,12
+Cerro Hutzilac,19.34157,-99.14145,Coyoacán,1
+CETRAM Periférico,19.31769,-99.075141,Iztapalapa,7
+CETRAM Periférico,19.317592,-99.075669,Iztapalapa,7
+Ceylan,19.47328,-99.16088,Azcapotzalco,4
+Ceylan,19.47282,-99.16159,Azcapotzalco,4
+Chapultepec,19.42111,-99.17549,Cuauhtémoc,6
+Chapultepec,19.42054,-99.17537,Cuauhtémoc,2
+Chinampas,19.38046,-99.10296,Iztacalco,9
+Chopin,19.46063,-99.13759,Cuauhtémoc,1
+Chopin,19.46117,-99.13773,Cuauhtémoc,1
+Churubusco,19.35695,-99.15276,Coyoacán,1
+Ciudad Deportiva,19.40831,-99.09162,Iztacalco,2
+Ciudad Deportiva,19.40864,-99.09103,Venustiano Carranza,2
+Ciudad Universitaria - Estadio C.U.,19.335801,-99.190501,Coyoacán,7
+Ciudad Universitaria - Estadio C.U.,19.336131,-99.190557,Coyoacán,7
+Clavería,19.46471,-99.17736,Azcapotzalco,6
+Clavería,19.46507,-99.17755,Azcapotzalco,6
+Clavijero,19.4134,-99.13051,Cuauhtémoc,2
+Clavijero,19.41202,-99.13103,Cuauhtémoc,2
+Clínica 14 IMSS,19.42292,-99.09488,Venustiano Carranza,4
+Clínica 23 IMSS,19.47831,-99.09652,Gustavo A. Madero,5
+Cobre,19.45503,-99.12915,Cuauhtémoc,5
+Congreso de la Unión,19.46368,-99.11149,Gustavo A. Madero,4
+Congreso de la Unión,19.46387,-99.11261,Gustavo A. Madero,4
+Congreso de la Unión,19.40925,-99.12133,Venustiano Carranza,2
+Congreso de la Unión,19.41363,-99.12203,Venustiano Carranza,2
+Constancia,19.45083,-99.13251,Cuauhtémoc,5
+Constitución de 1917,19.3457,-99.06411,Iztapalapa,10
+Constitución de la República,19.4819,-99.07136,Gustavo A. Madero,5
+Constitución de la República,19.48234,-99.07594,Gustavo A. Madero,5
+Corales,19.38776,-99.10908,Iztacalco,9
+Cuadrante San Francisco,19.344715,-99.163755,Coyoacán,7
+Cuadrante San Francisco,19.344582,-99.164489,Coyoacán,7
+Cuauhtémoc,19.48036,-99.11514,Gustavo A. Madero,5
+Cuauhtémoc,19.37093,-99.16038,Benito Juárez,3
+Cuauhtémoc,19.36923,-99.16186,Benito Juárez,3
+Cuauhtémoc,19.41593,-99.15489,Cuauhtémoc,2
+Cuauhtémoc,19.41498,-99.15504,Cuauhtémoc,2
+Cucurpe,19.41388,-99.11793,Venustiano Carranza,2
+Culhuacán,19.336971,-99.108848,Iztapalapa,7
+Culhuacán,19.336862,-99.109045,Iztapalapa,7
+Cultura Náhuatl,19.50936,-99.20441,Azcapotzalco,6
+Cultura Náhuatl,19.5086,-99.20577,Azcapotzalco,6
+Cultura Náhuatl,19.50936,-99.20441,Azcapotzalco,4
+Cultura Náhuatl,19.5086,-99.20577,Azcapotzalco,4
+Cumbres de Acultzingo,19.39238,-99.14636,Benito Juárez,1
+Cumbres de Acultzingo,19.39277,-99.14646,Benito Juárez,1
+Cumbres de Maltrata,19.38608,-99.14715,Benito Juárez,1
+Cumbres de Maltrata,19.38722,-99.14718,Benito Juárez,1
+C. Vallejo,19.47307,-99.14679,Azcapotzalco,4
+C. Vallejo,19.47311,-99.14507,Gustavo A. Madero,4
+Del Taller,19.41363,-99.12128,Venustiano Carranza,2
+Deportivo Francisco Zarco,19.45961,-99.09609,Gustavo A. Madero,4
+Deportivo Los Galeana,19.47912,-99.07754,Gustavo A. Madero,5
+Deportivo Los Galeana,19.47929,-99.07778,Gustavo A. Madero,5
+Depósito El Rosario,19.50569,-99.19831,Azcapotzalco,6
+Depósito El Rosario,19.50569,-99.19831,Azcapotzalco,4
+Division Del Norte,19.342584,-99.149177,Coyoacán,7
+División del Norte,19.34219,-99.148832,Coyoacán,12
+División del Norte,19.342735,-99.148586,Coyoacán,7
+División del Norte,19.3663,-99.15576,Benito Juárez,3
+División del Norte,19.37032,-99.15643,Benito Juárez,3
+División del Norte,19.34274,-99.14859,Coyoacán,1
+Doctores,19.42127,-99.14315,Cuauhtémoc,1
+Doctores,19.4211,-99.14331,Cuauhtémoc,1
+Donizetti,19.46554,-99.12613,Gustavo A. Madero,5
+Dr. Andrade,19.4154,-99.14632,Cuauhtémoc,2
+Dr. Andrade,19.41448,-99.14687,Cuauhtémoc,2
+Dr. Jiménez,19.4147,-99.14999,Cuauhtémoc,2
+Dr. Lucio,19.41586,-99.1525,Cuauhtémoc,2
+Dr. Lucio,19.41495,-99.15308,Cuauhtémoc,2
+Dr. Pascua,19.42246,-99.14317,Cuauhtémoc,1
+Dr. Vértiz,19.37008,-99.15484,Benito Juárez,3
+Dr. Vértiz,19.41551,-99.14785,Cuauhtémoc,2
+Dr. Vértiz,19.4146,-99.14853,Cuauhtémoc,2
+Durango,19.41852,-99.17191,Cuauhtémoc,2
+Dvo. Santa Cruz,19.34246,-99.04888,Iztapalapa,10
+Edif. 10 ESIA,19.50388,-99.13577,Gustavo A. Madero,8
+Edif. 11 ESIA,19.50404,-99.13691,Gustavo A. Madero,8
+Edif. 11 ESIA,19.50376,-99.13703,Gustavo A. Madero,8
+Edif. 1 ESIME,19.49776,-99.13646,Gustavo A. Madero,8
+Edif. 1 ESIME,19.49779,-99.13664,Gustavo A. Madero,8
+Edif. 2 ESIME,19.49851,-99.13631,Gustavo A. Madero,8
+Edif. 2 ESIME,19.49854,-99.13649,Gustavo A. Madero,8
+Edif. 4 ESIME,19.49979,-99.13606,Gustavo A. Madero,8
+Edif. 4 ESIME,19.49981,-99.13625,Gustavo A. Madero,8
+Edif. 6 ESIQIE,19.50105,-99.13582,Gustavo A. Madero,8
+Edif. 6 ESIQIE,19.50108,-99.136,Gustavo A. Madero,8
+Edif. 8 ESIQIE,19.50234,-99.13557,Gustavo A. Madero,8
+Edif. 8 ESIQIE,19.50237,-99.13575,Gustavo A. Madero,8
+Edificio 26-B,19.5044,-99.20688,Azcapotzalco,6
+Edificio 26-B,19.5044,-99.20688,Azcapotzalco,4
+Eduardo Molina,19.47892,-99.09715,Gustavo A. Madero,5
+Eduardo Molina,19.47907,-99.09852,Gustavo A. Madero,5
+Eduardo Molina,19.46134,-99.1049,Gustavo A. Madero,4
+Eduardo Molina,19.46147,-99.10577,Gustavo A. Madero,4
+Educación Pública,19.331741,-99.107862,Iztapalapa,7
+Eje 10,19.334152,-99.151283,Coyoacán,12
+Eje 10,19.333495,-99.151289,Coyoacán,12
+Eje Central,19.36927,-99.14961,Benito Juárez,3
+Eje Central,19.36557,-99.15099,Benito Juárez,3
+Eje Central,19.41519,-99.14349,Cuauhtémoc,2
+Eje Central,19.41427,-99.14414,Cuauhtémoc,2
+Ejido,19.338208,-99.118395,Coyoacán,7
+El Ángel,19.42642,-99.16866,Cuauhtémoc,5
+El Ángel,19.42665,-99.16876,Cuauhtémoc,5
+El Caballito,19.43607,-99.14906,Cuauhtémoc,5
+El Caballito,19.43503,-99.15039,Cuauhtémoc,5
+El Queso,19.49495,-99.135,Gustavo A. Madero,8
+El Rosario,19.50401,-99.20133,Azcapotzalco,6
+El Rosario,19.50401,-99.20133,Azcapotzalco,4
+Emiliano Zapata,19.326354,-99.100254,Iztapalapa,7
+Emiliano Zapata,19.32627,-99.100477,Iztapalapa,7
+Emiliano Zapata,19.36632,-99.1505,Benito Juárez,1
+Emiliano Zapata,19.3661,-99.15069,Benito Juárez,1
+ESCOM,19.50554,-99.14511,Gustavo A. Madero,8
+ESCOM,19.50549,-99.14543,Gustavo A. Madero,8
+Escuela Nacional de Ciencias Biológicas,19.49871,-99.14579,Gustavo A. Madero,8
+Escuela Nacional de Ciencias Biológicas,19.4984,-99.14595,Gustavo A. Madero,8
+Escuela Naval Militar,19.337629,-99.122502,Coyoacán,7
+Escuela Naval Militar,19.337545,-99.123056,Coyoacán,7
+ESEF,19.40641,-99.1027,Iztacalco,2
+Estado de Morelos,19.4838,-99.07063,Gustavo A. Madero,5
+Estado de Morelos,19.4834,-99.07073,Gustavo A. Madero,5
+Estado de Oaxaca,19.48525,-99.07008,Gustavo A. Madero,5
+Estado de Oaxaca,19.48489,-99.07016,Gustavo A. Madero,5
+Estado de Sinaloa,19.48215,-99.0737,Gustavo A. Madero,5
+Estado de Sinaloa,19.48211,-99.074,Gustavo A. Madero,5
+Estado de Tabasco,19.48628,-99.06968,Gustavo A. Madero,5
+Estado de Tabasco,19.48592,-99.06976,Gustavo A. Madero,5
+Estado de Tamaulipas,19.48169,-99.07201,Gustavo A. Madero,5
+Estudios Churubusco,19.38708,-99.117,Iztacalco,9
+Estudios San Ángel Inn,19.38859,-99.11541,Iztacalco,9
+Eugenia,19.38423,-99.14736,Benito Juárez,1
+Eugenia,19.38425,-99.14752,Benito Juárez,1
+Europa,19.343722,-99.1574,Coyoacán,7
+Euzkaro,19.47893,-99.12109,Gustavo A. Madero,5
+Excélsior,19.4723,-99.12358,Gustavo A. Madero,5
+F.C. Central,19.4721,-99.16385,Azcapotzalco,4
+F. C.  Hidalgo,19.46574,-99.11738,Gustavo A. Madero,4
+F. C. Hidalgo,19.466,-99.11874,Gustavo A. Madero,4
+Felipe Carrillo Puerto,19.45094,-99.18181,Miguel Hidalgo,6
+Felipe Carrillo Puerto,19.4514,-99.18195,Miguel Hidalgo,6
+Felipe Villanueva,19.46414,-99.13744,Cuauhtémoc,1
+Felipe Villanueva,19.46381,-99.13761,Cuauhtémoc,1
+Fernández Leal,19.343963,-99.15939,Coyoacán,7
+Fernando Iglesias,19.41297,-99.1062,Venustiano Carranza,2
+Fernando Iglesias,19.40839,-99.10898,Venustiano Carranza,2
+FF. CC. Hidalgo,19.48223,-99.10542,Gustavo A. Madero,5
+FFCC. Nacionales,19.48565,-99.18952,Azcapotzalco,6
+FFCC. Nacionales,19.48595,-99.19036,Azcapotzalco,6
+FFCC. Nacionales,19.48565,-99.18952,Azcapotzalco,4
+FFCC. Nacionales,19.48595,-99.19036,Azcapotzalco,4
+Flores Magón,19.44945,-99.1339,Cuauhtémoc,5
+Flores Magón,19.44914,-99.13846,Cuauhtémoc,1
+Flores Magón,19.45019,-99.13846,Cuauhtémoc,1
+Formosa,19.44703,-99.08845,Venustiano Carranza,4
+Fortuna,19.47996,-99.1207,Gustavo A. Madero,5
+Francisco Fernández del Castillo,19.38597,-99.13374,Benito Juárez,9
+Francisco I. Madero,19.43396,-99.14085,Cuauhtémoc,1
+Francisco Morazán,19.48047,-99.07703,Gustavo A. Madero,5
+Fray Servando Teresa de Mier,19.42435,-99.14256,Cuauhtémoc,1
+Fray Servando Teresa de Mier,19.42496,-99.14257,Cuauhtémoc,1
+Frente a Nissan,19.50483,-99.20656,Azcapotzalco,6
+Frente a Nissan,19.50483,-99.20656,Azcapotzalco,4
+Gabriel Mancera,19.37143,-99.16871,Benito Juárez,3
+Garibaldi,19.4448,-99.13866,Cuauhtémoc,5
+Garibaldi,19.44486,-99.1387,Cuauhtémoc,5
+Garibaldi,19.44353,-99.1395,Cuauhtémoc,5
+Garibaldi,19.44351,-99.13955,Cuauhtémoc,5
+Garrido,19.48357,-99.11934,Gustavo A. Madero,5
+Genaro García,19.41139,-99.1013,Venustiano Carranza,2
+General Mariano Salas,19.48777,-99.1136,Gustavo A. Madero,5
+General Martín Carrera,19.48662,-99.11295,Gustavo A. Madero,5
+General Vicente Villada,19.48223,-99.11446,Gustavo A. Madero,5
+Girasol,19.3835,-99.10112,Iztacalco,9
+Glorieta Cuitláhuac,19.44947,-99.13399,Cuauhtémoc,5
+Glorieta Cuitláhuac,19.44725,-99.13564,Cuauhtémoc,5
+Glorieta de Camarones,19.46756,-99.1766,Azcapotzalco,6
+Glorieta de Camarones,19.46887,-99.17707,Azcapotzalco,6
+Glorieta de Camarones,19.46864,-99.17561,Azcapotzalco,4
+Glorieta de Camarones,19.46887,-99.17707,Azcapotzalco,4
+Glorieta Violeta,19.44155,-99.14234,Cuauhtémoc,5
+Glorieta Violeta,19.43955,-99.1441,Cuauhtémoc,5
+Gobernación,19.334029,-99.108537,Iztapalapa,7
+Gobernación,19.334339,-99.108846,Iztapalapa,7
+González Bocanegra,19.44662,-99.13665,Cuauhtémoc,5
+Graciela,19.46675,-99.12028,Gustavo A. Madero,4
+Graciela,19.46668,-99.12068,Gustavo A. Madero,4
+Granados,19.45713,-99.13777,Cuauhtémoc,1
+Granados,19.45756,-99.13791,Cuauhtémoc,1
+Gran Canal,19.47704,-99.09258,Gustavo A. Madero,5
+Gran Canal,19.47695,-99.09288,Gustavo A. Madero,5
+Hacienda Sotelo,19.50224,-99.20515,Azcapotzalco,6
+Hacienda Sotelo,19.50224,-99.20515,Azcapotzalco,4
+Hamburgo,19.43005,-99.16153,Cuauhtémoc,5
+Hamburgo,19.42918,-99.16279,Cuauhtémoc,5
+Henry Ford,19.4707,-99.12255,Gustavo A. Madero,5
+Hermanos Vázquez,19.339445,-99.182058,Coyoacán,7
+Hermanos Vázquez,19.339219,-99.182337,Coyoacán,7
+Hidalgo,19.48146,-99.18866,Azcapotzalco,6
+Hidalgo,19.43787,-99.14638,Cuauhtémoc,5
+Hidalgo,19.43663,-99.1476,Cuauhtémoc,5
+Hidalgo,19.48039,-99.11711,Gustavo A. Madero,5
+Hidalgo,19.48146,-99.18866,Azcapotzalco,4
+Hidalgo,19.35175,-99.15154,Coyoacán,1
+Hidrógeno,19.51018,-99.20215,Azcapotzalco,6
+Hidrógeno,19.51018,-99.20215,Azcapotzalco,4
+Hierro,19.45667,-99.1281,Cuauhtémoc,5
+Homero,19.43483,-99.18236,Miguel Hidalgo,6
+Homero,19.43556,-99.18285,Miguel Hidalgo,6
+Horacio,19.43267,-99.18152,Miguel Hidalgo,6
+Horacio,19.43331,-99.18198,Miguel Hidalgo,6
+Hospital 20 de Noviembre,19.372,-99.17068,Benito Juárez,3
+Hospital 20 de Noviembre,19.37195,-99.17108,Benito Juárez,3
+Hospital de la Villa,19.48094,-99.10317,Gustavo A. Madero,5
+Independencia,19.43303,-99.14116,Cuauhtémoc,1
+Industria,19.40872,-99.11568,Venustiano Carranza,2
+Instituto del Petróleo n,19.48862,-99.14398,Gustavo A. Madero,1
+Instituto del Petróleo s,19.48861,-99.14485,Gustavo A. Madero,1
+Insurgentes Sur,19.37366,-99.17844,Benito Juárez,3
+Insurgentes Sur,19.37355,-99.1786,Benito Juárez,3
+Insurgentes Sur,19.4155,-99.16517,Cuauhtémoc,2
+Insurgentes Sur,19.41574,-99.16585,Cuauhtémoc,2
+Irlanda,19.34978,-99.15075,Coyoacán,1
+Isabel la Católica,19.41484,-99.13837,Cuauhtémoc,2
+Isabel la Católica,19.41388,-99.13903,Cuauhtémoc,2
+Ixtlixochitl,19.325249,-99.158097,Coyoacán,12
+Ixtlixochitl,19.32534,-99.158224,Coyoacán,12
+Iztacalco,19.38827,-99.11221,Iztacalco,9
+Iztahuatzín,19.34876,-99.0185,Iztapalapa,10
+Jamaica,19.41113,-99.12158,Venustiano Carranza,2
+Javier Sorondo,19.38478,-99.13567,Benito Juárez,9
+Javier Sorondo,19.38746,-99.13607,Benito Juárez,9
+Jerez,19.37443,-99.18178,Benito Juárez,3
+Joaquín García,19.38179,-99.11348,Iztacalco,9
+José Antonio Torres,19.41203,-99.13249,Cuauhtémoc,2
+José María Mata,19.38206,-99.11558,Iztacalco,9
+José Revueltas,19.3872,-99.13388,Benito Juárez,9
+J. Othón de Medizabal,19.50451,-99.15116,Gustavo A. Madero,8
+J. Othón de Mendizabal,19.50472,-99.15033,Gustavo A. Madero,8
+Joyas,19.47623,-99.1204,Gustavo A. Madero,5
+J. Sánchez Trujillo,19.45942,-99.17867,Azcapotzalco,6
+J. Sánchez Trujillo,19.45871,-99.17886,Miguel Hidalgo,6
+Juan Alvarez,19.38529,-99.11711,Iztacalco,9
+Juan de Dios Bátiz,19.50646,-99.14649,Gustavo A. Madero,8
+Juan de Dios Bátiz,19.50629,-99.1468,Gustavo A. Madero,8
+Julieta,19.46437,-99.12502,Gustavo A. Madero,5
+Juventino Rosas,19.45761,-99.12916,Cuauhtémoc,5
+Kiff,19.38113,-99.14773,Benito Juárez,1
+La Diana,19.42563,-99.17092,Cuauhtémoc,5
+La Diana,19.42459,-99.17254,Cuauhtémoc,5
+Lago Alberto,19.44028,-99.1834,Miguel Hidalgo,6
+Lago Alberto,19.44006,-99.18371,Miguel Hidalgo,6
+Lago Bolsena,19.44534,-99.18266,Miguel Hidalgo,6
+Lago Bolsena,19.44569,-99.18285,Miguel Hidalgo,6
+Lago Garda,19.44916,-99.1821,Miguel Hidalgo,6
+Laguna de Mayrán,19.4413,-99.18325,Miguel Hidalgo,6
+Laguna de Mayrán,19.44193,-99.18342,Miguel Hidalgo,6
+Laguna de Términos,19.44323,-99.18297,Miguel Hidalgo,6
+Laguna de Términos,19.44385,-99.18313,Miguel Hidalgo,6
+La Raza,19.46963,-99.13673,Gustavo A. Madero,1
+Lázaro Cárdenas,19.40698,-99.1446,Cuauhtémoc,1
+Lázaro Cárdenas,19.40762,-99.14468,Cuauhtémoc,1
+Lerdo,19.44138,-99.14242,Cuauhtémoc,5
+Lomas Estrella,19.322284,-99.095816,Iztapalapa,7
+Lomas Estrella,19.322267,-99.096937,Iztapalapa,7
+Loreto Fabela,19.47329,-99.07968,Gustavo A. Madero,5
+Los Pinos,19.340028,-99.147911,Coyoacán,12
+Luis Galvani,19.32908,-99.106488,Iztapalapa,7
+Luis Galvani,19.329589,-99.107199,Iztapalapa,7
+Luna,19.44761,-99.13871,Cuauhtémoc,1
+Luna,19.44799,-99.13879,Cuauhtémoc,1
+Luz Saviñón,19.39009,-99.14681,Benito Juárez,1
+Luz Saviñón,19.38854,-99.14686,Benito Juárez,1
+Maguey,19.38651,-99.10393,Iztacalco,9
+Ma. Luisa Stampa Ortigoza,19.50512,-99.14318,Gustavo A. Madero,8
+Ma. Luisa Stampa Ortigoza,19.50484,-99.14322,Gustavo A. Madero,8
+Manuel de Anda y Barredo,19.50357,-99.13597,Gustavo A. Madero,8
+Manuel González,19.45413,-99.13061,Cuauhtémoc,5
+Manuel González,19.45401,-99.13829,Cuauhtémoc,1
+Manuel González,19.45519,-99.13834,Cuauhtémoc,1
+Manuel J. Othon,19.41498,-99.14379,Cuauhtémoc,1
+Manuel J. Othon,19.4148,-99.14396,Cuauhtémoc,1
+Mar Cantábrico,19.45299,-99.18147,Miguel Hidalgo,6
+Mar Cantábrico,19.45351,-99.1816,Miguel Hidalgo,6
+Mariano Escobedo,19.42682,-99.17902,Miguel Hidalgo,6
+Martín Carrera,19.48265,-99.10688,Gustavo A. Madero,5
+Martín Carrera,19.48293,-99.10735,Gustavo A. Madero,5
+Martíres de Río Blanco,19.3822,-99.1199,Iztapalapa,9
+Martítes de Río Blanco,19.3823,-99.11991,Iztacalco,9
+Matamoros,19.44623,-99.13674,Cuauhtémoc,5
+Matías Romero,19.37784,-99.14854,Benito Juárez,1
+Mecánicos,19.51156,-99.19934,Azcapotzalco,6
+Mecánicos,19.51156,-99.19934,Azcapotzalco,4
+Melchor Ocampo,19.345461,-99.171738,Coyoacán,7
+Melchor Ocampo,19.34571,-99.171945,Coyoacán,7
+Melchor Ocampo,19.38221,-99.11751,Iztacalco,9
+Mérida,19.41563,-99.1564,Cuauhtémoc,2
+Mérida,19.41469,-99.15651,Cuauhtémoc,2
+Metro Boulevard Puerto Aéreo,19.42097,-99.09557,Venustiano Carranza,4
+Metro Hidalgo,19.43709,-99.14401,Cuauhtémoc,5
+Metro Hidalgo,19.43793,-99.14588,Cuauhtémoc,5
+Meyehualco,19.34319,-99.04125,Iztapalapa,10
+Miguel Ángel de Quevedo,19.346137,-99.180692,Coyoacán,7
+Miguel Ángel de Quevedo,19.345973,-99.180917,Coyoacán,7
+Miguel Hidalgo,19.337491,-99.12006,Coyoacán,7
+Miguel Hidalgo,19.337248,-99.120182,Coyoacán,7
+Miguel Laurent,19.37276,-99.14938,Benito Juárez,1
+Miguel Laurent,19.37316,-99.14944,Benito Juárez,1
+Minerva,19.48119,-99.18353,Azcapotzalco,6
+Minerva,19.48119,-99.18353,Azcapotzalco,4
+Miravalle,19.36754,-99.13914,Benito Juárez,3
+Mixcoac Norte,19.37612,-99.188,Benito Juárez,3
+Mixcoac Sur,19.37585,-99.18797,Benito Juárez,3
+Mixiuhca,19.40841,-99.11254,Venustiano Carranza,2
+Moctecuzoma,19.317224,-99.165162,Coyoacán,12
+Moctecuzoma,19.317328,-99.165298,Coyoacán,12
+Moctezuma,19.328257,-99.155442,Coyoacán,12
+Moctezuma,19.328097,-99.155812,Coyoacán,12
+Moctezuma,19.345175,-99.16754,Coyoacán,7
+Moctezuma,19.345009,-99.168007,Coyoacán,7
+Moctezuma,19.44315,-99.14046,Cuauhtémoc,5
+Moctezuma,19.48063,-99.11868,Gustavo A. Madero,5
+Monterrey,19.41434,-99.16299,Cuauhtémoc,2
+Montevideo,19.49365,-99.14649,Gustavo A. Madero,8
+Montevideo,19.48541,-99.11866,Gustavo A. Madero,5
+Montevideo,19.49296,-99.1457,Gustavo A. Madero,1
+Monumento a Lázaro Cárdenas,19.41913,-99.14352,Cuauhtémoc,1
+Monumento a Lázaro Cárdenas,19.4175,-99.14353,Cuauhtémoc,1
+Moras,19.37269,-99.1738,Benito Juárez,3
+Moras,19.37258,-99.17397,Benito Juárez,3
+Morelos,19.43987,-99.08549,Venustiano Carranza,4
+Morena,19.39791,-99.14564,Benito Juárez,1
+Morena,19.39835,-99.14573,Benito Juárez,1
+Municipio Libre,19.36878,-99.15007,Benito Juárez,1
+Municipio Libre,19.36957,-99.15009,Benito Juárez,1
+Museo de Transportes Eléctricos,19.36643,-99.13328,Iztapalapa,3
+Newton,19.43697,-99.1832,Miguel Hidalgo,6
+Newton,19.43728,-99.18347,Miguel Hidalgo,6
+Niños Héroes,19.41571,-99.15057,Cuauhtémoc,2
+Noé,19.46728,-99.12389,Gustavo A. Madero,5
+Norte 13,19.42562,-99.09298,Venustiano Carranza,4
+Norte 17,19.42889,-99.09599,Venustiano Carranza,4
+Norte 1-G,19.47224,-99.1413,Gustavo A. Madero,4
+Norte 21,19.43032,-99.09519,Venustiano Carranza,4
+Norte 25,19.42978,-99.09067,Venustiano Carranza,4
+Norte 25 I,19.43252,-99.09397,Venustiano Carranza,4
+Norte 25 II,19.43137,-99.0946,Venustiano Carranza,4
+Norte 33,19.43515,-99.09251,Venustiano Carranza,4
+Norte 37,19.4366,-99.0917,Venustiano Carranza,4
+Norte 54-A,19.46498,-99.1158,Gustavo A. Madero,4
+Norte 58,19.46459,-99.1141,Gustavo A. Madero,4
+Norte 66-A,19.46292,-99.10991,Gustavo A. Madero,4
+Norte 70,19.46272,-99.10874,Gustavo A. Madero,4
+Norte 72-A,19.46224,-99.10738,Gustavo A. Madero,4
+Norte 84,19.46041,-99.10273,Gustavo A. Madero,4
+Norte 84-A,19.46031,-99.10197,Gustavo A. Madero,4
+Norte 87,19.47163,-99.17929,Azcapotzalco,6
+Norte 87,19.47163,-99.17929,Azcapotzalco,4
+Norte 92,19.45943,-99.09949,Gustavo A. Madero,4
+Norte 92,19.45942,-99.09991,Gustavo A. Madero,4
+Nubia,19.47444,-99.1821,Azcapotzalco,6
+Nubia,19.47444,-99.1821,Azcapotzalco,4
+Nueva Jerusalén,19.48288,-99.18308,Azcapotzalco,6
+Nueva Jerusalén,19.48288,-99.18308,Azcapotzalco,4
+Obrera,19.41295,-99.14399,Cuauhtémoc,1
+Obrera,19.41218,-99.14423,Cuauhtémoc,1
+Oceanía,19.343288,-99.154186,Coyoacán,7
+Oceanía,19.44498,-99.0866,Venustiano Carranza,4
+Oceanía,19.44479,-99.08697,Venustiano Carranza,4
+Ohio,19.342927,-99.151616,Coyoacán,7
+Ohio,19.343213,-99.152072,Coyoacán,7
+Oriente 180,19.42633,-99.09498,Venustiano Carranza,4
+Orizaba,19.41516,-99.15879,Cuauhtémoc,2
+Orizaba,19.41422,-99.15888,Cuauhtémoc,2
+Oroya,19.49496,-99.13634,Gustavo A. Madero,8
+Otavalo,19.49536,-99.14662,Gustavo A. Madero,8
+Oxtopulco,19.343358,-99.181255,Coyoacán,7
+Oxtopulco,19.343743,-99.181377,Coyoacán,7
+Pacífico,19.335295,-99.148219,Coyoacán,12
+Pacífico,19.33764,-99.150112,Coyoacán,12
+Palacio de los Deportes,19.40349,-99.10112,Iztacalco,2
+Pantitlán,19.41615,-99.07343,Venustiano Carranza,2
+Papalotl,19.34394,-99.03344,Iztapalapa,10
+Papatzin,19.314176,-99.167829,Coyoacán,12
+Papatzín,19.314285,-99.167957,Coyoacán,12
+París,19.4324,-99.15597,Cuauhtémoc,5
+París,19.4326,-99.15615,Cuauhtémoc,5
+Parque de los Venados,19.37065,-99.1585,Benito Juárez,3
+Parque EspaNa,19.41666,-99.17064,Cuauhtémoc,2
+Patriotismo,19.37571,-99.18657,Benito Juárez,3
+Patriotismo,19.37568,-99.18697,Benito Juárez,3
+Pekín,19.44972,-99.09132,Venustiano Carranza,4
+Peñiscola,19.319542,-99.079807,Iztapalapa,7
+Peñiscola,19.319347,-99.080117,Iztapalapa,7
+Perisur,19.304892,-99.185954,Coyoacán,12
+Persía,19.44118,-99.0891,Venustiano Carranza,4
+Pescadores,19.51063,-99.202,Azcapotzalco,6
+Pescadores,19.51063,-99.202,Azcapotzalco,4
+Petróleos Mexicanos,19.340287,-99.133081,Coyoacán,7
+PiNa,19.47014,-99.17004,Azcapotzalco,4
+Pino,19.345473,-99.169998,Coyoacán,7
+Plan de San Luis,19.47175,-99.16562,Azcapotzalco,4
+Plan de San Luis,19.47126,-99.16641,Azcapotzalco,4
+Planetario,19.49622,-99.14021,Gustavo A. Madero,8
+Playa Cortés,19.38295,-99.12478,Iztacalco,9
+Playa Cortés,19.38293,-99.12503,Iztacalco,9
+Playa Mirador,19.38319,-99.12648,Iztacalco,9
+Playa Mirador,19.38327,-99.12655,Iztacalco,9
+Playa Miramar,19.38354,-99.12804,Iztacalco,9
+Playa Miramar,19.38352,-99.12837,Iztacalco,9
+Playa Ola Verde,19.38403,-99.13119,Iztacalco,9
+Playa Ola Verde,19.38412,-99.13129,Iztacalco,9
+Plaza Aeropuerto,19.42074,-99.09609,Venustiano Carranza,4
+Plaza Mariana,19.48341,-99.11397,Gustavo A. Madero,5
+Plutarco Elías Calles,19.38433,-99.13284,Iztacalco,9
+Plutarco Elías Calles,19.38452,-99.13354,Iztacalco,9
+Plutarco Elías Calles,19.36363,-99.13886,Benito Juárez,3
+Plutarco Elías Calles,19.3672,-99.13724,Iztapalapa,3
+Politécnico Oriente,19.50056,-99.14868,Gustavo A. Madero,8
+Politécnico Poniente,19.50054,-99.14959,Gustavo A. Madero,8
+Poniente 106,19.47312,-99.13872,Gustavo A. Madero,1
+Poniente 112,19.47639,-99.13917,Gustavo A. Madero,1
+Poniente 112,19.47731,-99.14039,Gustavo A. Madero,1
+Poniente 118,19.48052,-99.14166,Gustavo A. Madero,1
+Poniente 128,19.48704,-99.14424,Gustavo A. Madero,1
+Poniente 44,19.4605,-99.17778,Azcapotzalco,6
+Poniente 44,19.46083,-99.17794,Azcapotzalco,6
+Poniente 48,19.46179,-99.17762,Azcapotzalco,6
+Poniente 62,19.46666,-99.1771,Azcapotzalco,6
+Poniente 62,19.46706,-99.17714,Azcapotzalco,6
+Popocatépetl,19.36195,-99.15125,Benito Juárez,1
+Popocatépetl,19.36215,-99.15137,Benito Juárez,1
+Poussin,19.37541,-99.1855,Benito Juárez,3
+Poussin,19.37529,-99.18556,Benito Juárez,3
+Progreso,19.325195,-99.098755,Iztapalapa,7
+Próspero García,19.327564,-99.103325,Iztapalapa,7
+Psicología,19.336833,-99.18719,Coyoacán,7
+Puebla,19.40703,-99.08271,Iztacalco,2
+Puebla,19.40744,-99.0824,Venustiano Carranza,2
+Puente de Guerra,19.49647,-99.1997,Azcapotzalco,6
+Puente de Guerra,19.49647,-99.1997,Azcapotzalco,4
+Puente San Francisco,19.344486,-99.161872,Coyoacán,7
+Puente San Francisco,19.34429,-99.162085,Coyoacán,7
+Puerta 8,19.40749,-99.08602,Iztacalco,2
+Puerta 8,19.40787,-99.08552,Venustiano Carranza,2
+Puerto de Acapulco,19.47431,-99.08453,Gustavo A. Madero,5
+Puerto de Acapulco,19.47431,-99.08511,Gustavo A. Madero,5
+Puerto de Barra de Nautla,19.4739,-99.08236,Gustavo A. Madero,5
+Puerto de Cádiz,19.47616,-99.09043,Gustavo A. Madero,5
+Puerto de Cádiz,19.47614,-99.09083,Gustavo A. Madero,5
+Puerto de Coatzacoalcos,19.47506,-99.08848,Gustavo A. Madero,5
+Puerto de Cozumel,19.47562,-99.08957,Gustavo A. Madero,5
+Puerto de Guaymas,19.47467,-99.08703,Gustavo A. Madero,5
+Puerto de Mazatlán,19.47766,-99.07809,Gustavo A. Madero,5
+Puerto de Mazatlán,19.4778,-99.07835,Gustavo A. Madero,5
+Puerto de San Blas,19.47459,-99.08599,Gustavo A. Madero,5
+Puerto de Tampico,19.47559,-99.07883,Gustavo A. Madero,5
+Puerto de Tampico,19.47599,-99.07905,Gustavo A. Madero,5
+Puerto de Tlacotalpan,19.47355,-99.08108,Gustavo A. Madero,5
+Puerto de Tlacotalpan,19.47366,-99.08108,Gustavo A. Madero,5
+Puerto Progreso,19.47389,-99.08287,Gustavo A. Madero,5
+Querétaro,19.41446,-99.16367,Cuauhtémoc,2
+Raíz del Agua,19.3808,-99.10557,Iztacalco,9
+Ramadés TreviNo,19.41122,-99.10336,Venustiano Carranza,2
+Real del Monte,19.47001,-99.13167,Gustavo A. Madero,4
+Real del Monte,19.46997,-99.13222,Gustavo A. Madero,4
+Reforma,19.43111,-99.15854,Cuauhtémoc,5
+Reforma,19.43143,-99.15871,Cuauhtémoc,5
+Renacimiento,19.50608,-99.20795,Azcapotzalco,6
+Renacimiento,19.50608,-99.20795,Azcapotzalco,4
+República de Perú,19.43923,-99.14002,Cuauhtémoc,1
+República de Perú,19.43994,-99.14007,Cuauhtémoc,1
+República de Uruguay,19.43103,-99.1413,Cuauhtémoc,1
+República de Uruguay,19.4314,-99.1414,Cuauhtémoc,1
+Retorno 39,19.41219,-99.10322,Venustiano Carranza,2
+Retorno Copilco,19.337922,-99.18577,Coyoacán,7
+Ricarte,19.48204,-99.11992,Gustavo A. Madero,5
+Río Blanco,19.47724,-99.12173,Gustavo A. Madero,5
+Río Churubusco,19.38584,-99.10112,Iztacalco,9
+Río Consulado,19.46056,-99.12651,Cuauhtémoc,5
+Río Consulado,19.46205,-99.12744,Gustavo A. Madero,5
+Río Consulado,19.46593,-99.13734,Gustavo A. Madero,1
+Río Consulado,19.46559,-99.13758,Gustavo A. Madero,1
+Robles Domínguez,19.46872,-99.12493,Gustavo A. Madero,5
+Salónica,19.47025,-99.17804,Azcapotzalco,6
+Salónica,19.47127,-99.17942,Azcapotzalco,6
+Salónica,19.47025,-99.17804,Azcapotzalco,4
+Salónica,19.47127,-99.17942,Azcapotzalco,4
+Salto del Agua,19.42632,-99.14206,Cuauhtémoc,1
+Salto del Agua,19.42739,-99.142,Cuauhtémoc,1
+Samuel F. B. Morse,19.332358,-99.107907,Iztapalapa,7
+San Andrés Tomatlán,19.328062,-99.104027,Iztapalapa,7
+San Andrés Tomatlán,19.328214,-99.10479,Iztapalapa,7
+San Felipe de Jesús,19.49608,-99.06503,Nezahualcóyotl,5
+San Francisco,19.338604,-99.118105,Coyoacán,7
+San Francisco,19.37296,-99.17578,Benito Juárez,3
+San Francisco,19.37311,-99.17589,Benito Juárez,3
+San Juan,19.48063,-99.10136,Gustavo A. Madero,5
+San Juan,19.48052,-99.10213,Gustavo A. Madero,5
+San Pablo,19.338743,-99.117503,Coyoacán,7
+Santa Isabel Tola,19.338681,-99.126796,Coyoacán,7
+Santa Isabel Tola,19.338679,-99.127475,Coyoacán,7
+Santander,19.37374,-99.17936,Benito Juárez,3
+Santo Domingo,19.48721,-99.19183,Azcapotzalco,6
+Santo Domingo,19.48768,-99.19183,Azcapotzalco,6
+Santo Domingo,19.48721,-99.19183,Azcapotzalco,4
+Santo Domingo,19.48768,-99.19183,Azcapotzalco,4
+SAT,19.4372,-99.14517,Cuauhtémoc,5
+Sauces,19.4927,-99.19665,Azcapotzalco,6
+Sauces,19.4927,-99.19665,Azcapotzalco,4
+Secretaría de Extensión y Difusión,19.50452,-99.13973,Gustavo A. Madero,8
+Sierra Hermosa,19.49416,-99.06593,Gustavo A. Madero,5
+Siracusa,19.321426,-99.092178,Iztapalapa,7
+Siracusa,19.32176,-99.092465,Iztapalapa,7
+Sobre Av. División del Norte y Anillo de Circunvalación,19.3377951,-99.14724506,Coyoacán,12
+Sobre Av. División del Norte y los Pinos,19.34000643,-99.14821524,Coyoacán,12
+Sonora,19.41612,-99.16984,Cuauhtémoc,2
+Sonora,19.41943,-99.17331,Cuauhtémoc,2
+Soriana Cuitláhuac,19.47006,-99.17105,Azcapotzalco,4
+Soriana El Rosario,19.50306,-99.20524,Azcapotzalco,6
+Sur 69-A,19.36329,-99.13627,Iztapalapa,3
+Sur 73,19.36303,-99.13429,Iztapalapa,3
+Talismán,19.47791,-99.11975,Gustavo A. Madero,5
+Tasqueña,19.342846,-99.139594,Coyoacán,12
+Tasqueña,19.341717,-99.140811,Coyoacán,7
+Tasqueña,19.34172,-99.14081,Coyoacán,1
+Tecoloxtitlán,19.35206,-99.01586,Iztapalapa,10
+Tejocotes,19.37339,-99.17735,Benito Juárez,3
+Telurio,19.45896,-99.12713,Cuauhtémoc,5
+Tepalcates,19.39107,-99.04647,Iztapalapa,9
+Tepalcatzin,19.320447,-99.162351,Coyoacán,12
+Tepalcatzin,19.320553,-99.162484,Coyoacán,12
+Tepatitlan,19.49251,-99.06664,Gustavo A. Madero,5
+Terminal Aérea,19.43391,-99.08821,Venustiano Carranza,4
+Tesorería,19.48542,-99.14361,Gustavo A. Madero,1
+Tierra Indomita,19.49792,-99.20062,Azcapotzalco,6
+Tierra Indomita,19.49792,-99.20062,Azcapotzalco,4
+Tierra Negra,19.50059,-99.19918,Azcapotzalco,6
+Tierra Negra,19.50059,-99.19918,Azcapotzalco,4
+Tierra Nueva,19.50048,-99.20322,Azcapotzalco,6
+Tierra Nueva,19.50048,-99.20322,Azcapotzalco,4
+Tita Avendaño,19.31017,-99.174002,Coyoacán,12
+Tita Avendaño,19.310024,-99.174676,Coyoacán,12
+Tlalpan,19.38624,-99.13888,Benito Juárez,9
+Tlalpan,19.41332,-99.13335,Cuauhtémoc,2
+Tlatelolco,19.45115,-99.13257,Cuauhtémoc,5
+Tokio,19.3697,-99.15241,Benito Juárez,3
+Tokio,19.36595,-99.15343,Benito Juárez,3
+Tolstoi,19.42518,-99.1787,Miguel Hidalgo,6
+Tonalá,19.4146,-99.16165,Cuauhtémoc,2
+Tonalá,19.41366,-99.16171,Cuauhtémoc,2
+Topiltzin,19.323442,-99.159652,Coyoacán,12
+Topiltzin,19.323544,-99.15978,Coyoacán,12
+Torno,19.41364,-99.12425,Venustiano Carranza,2
+Torno,19.41354,-99.12459,Venustiano Carranza,2
+Transvaal,19.44292,-99.08805,Venustiano Carranza,4
+Tres Culturas,19.45126,-99.13258,Cuauhtémoc,5
+Tres Culturas,19.45072,-99.13262,Cuauhtémoc,5
+Tulipán,19.342902,-99.057158,Iztapalapa,10
+U. H. Lindavista-Vallejo,19.49217,-99.14627,Gustavo A. Madero,1
+Uxmal,19.36749,-99.15951,Benito Juárez,3
+Valentín Gómez Farías,19.38348,-99.11742,Iztacalco,9
+Valle de Yang Tse,19.49508,-99.06544,Nezahualcóyotl,5
+Valle Yukón,19.493,-99.06633,Nezahualcóyotl,5
+Valle Zambezi,19.49184,-99.06683,Nezahualcóyotl,5
+Velódromo,19.4088,-99.10461,Venustiano Carranza,2
+Velódromo,19.40837,-99.10503,Venustiano Carranza,2
+Vía Ceti,19.49762,-99.14396,Gustavo A. Madero,8
+Viaducto,19.40334,-99.14497,Benito Juárez,1
+Viaducto,19.403,-99.14516,Benito Juárez,1
+Victor Hugo,19.42712,-99.17754,Miguel Hidalgo,6
+Victoria,19.47296,-99.12167,Gustavo A. Madero,5
+Victoria,19.47396,-99.12296,Gustavo A. Madero,5
+Villa de Ayala,19.48934,-99.06802,Gustavo A. Madero,5
+Villa de Ayala,19.48841,-99.0688,Gustavo A. Madero,5
+Villa de Cortés,19.38762,-99.13786,Benito Juárez,9
+Virginia,19.38498,-99.1372,Benito Juárez,9
+Viveros,19.322691,-99.098114,Iztapalapa,7
+Vizcaínas,19.42879,-99.14161,Cuauhtémoc,1
+Vizcaínas,19.42925,-99.14171,Cuauhtémoc,1
+V. Trujano,19.43939,-99.14427,Cuauhtémoc,5
+Wilfrido Massieu,19.499,-99.14806,Gustavo A. Madero,8
+Xicoténcatl,19.35491,-99.15221,Coyoacán,1
+Xicoténcatl,19.35469,-99.15237,Coyoacán,1
+Zacate,19.38714,-99.10656,Iztacalco,9
+Zacatenco,19.49533,-99.13626,Gustavo A. Madero,8
+Zapata I,19.37065,-99.16451,Benito Juárez,3
+Zapata I,19.37048,-99.16452,Benito Juárez,3
+Zapata II,19.37078,-99.16517,Benito Juárez,3
+Zapata II,19.37068,-99.16537,Benito Juárez,3
+Zaragoza,19.345916,-99.173648,Coyoacán,7
+Zaragoza,19.345744,-99.174071,Coyoacán,7
+Zaragoza,19.48456,-99.18642,Azcapotzalco,6
+Zaragoza,19.48824,-99.11768,Gustavo A. Madero,5
+Zaragoza,19.48456,-99.18642,Azcapotzalco,4
+Zempoaltecas,19.49181,-99.19647,Azcapotzalco,6
+Zempoaltecas,19.49181,-99.19647,Azcapotzalco,4

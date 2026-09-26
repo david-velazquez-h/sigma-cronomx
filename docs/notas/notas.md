@@ -47,6 +47,17 @@ Se configuró el entorno local en Jupyter Lab dentro de iCloud y se subió el ar
 Se actualizó la documentación del proyecto en la carpeta `docs/IPT` incorporando dos entregables clave: el archivo `actualizacion_metodologia.md` con el marco teórico y la justificación de la fórmula compuesta ($IPT_{comp}$), y `modelo_datos_reales_ipt.md` (o el respaldo analítico del modelo) junto con el grafo visual generado (`grafo_red_cronomx.png`). Se documentó la integración de la base de datos GTFS real mediante el motor de grafos en NetworkX y el algoritmo de Dijkstra para evaluar la accesibilidad multi-destino desde las zonas periféricas hacia los polos de empleo de la ZMVM.
 
 ---
+### 2026-09-25 — David
+ 
+Se descubrió que Chalco en realidad **no está servido por ninguna línea de Mexibús**, la Línea 3 llega hasta Chimalhuacán, municipio vecino pero distinto. Chalco tiene su propio sistema, el **Trolebús Chalco-Santa Marta** (100% eléctrico, recién inaugurado, 18.5 km, 13 estaciones), operado eventualmente por STE.
+ 
+Se probó si Apimetro ya tenía este corredor cargado bajo su sistema `TROLE` (795 estaciones de trolebús en total), **no aparece ninguna estación de Chalco/Santa Marta**, probablemente por ser un corredor demasiado reciente para estar ya integrado.
+ 
+**Decisión final de municipios piloto para la v1:** Chalco queda fuera por falta de datos. El piloto se conforma con **Ecatepec de Morelos, Nezahualcóyotl, Chimalhuacán y Tecámac** (los 4 ya tienen cobertura real de Mexibús vía OSM/Overpass), con Tlalnepantla como quinto municipio posible, pendiente de confirmar cobertura de Metro/Metrobús antes de agregarlo.
+ 
+El corredor Chalco-Santa Marta queda anotado como candidato fuerte para v2 es un caso de uso perfecto para la narrativa de electromovilidad (Electro Hackatón, 8 de octubre), aunque no tengamos los datos listos todavía.
+ 
+---
 
 
 *Agreguen su entrada arriba de esta línea, con la fecha más reciente al final del archivo (orden cronológico).*

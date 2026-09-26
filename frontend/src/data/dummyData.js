@@ -1,4 +1,6 @@
-// Datos de ejemplo (dummy)  reemplazar cuando Miguel/Max entreguen el cálculo real
+// Datos de ejemplo (dummy) reemplazar cuando Max entregue el cálculo real del índice
+// Municipios piloto finales: Ecatepec, Nezahualcóyotl, Chimalhuacán, Tecámac
+// (Chalco quedó fuera, sin fuente pública de datos de transporte disponible, ver docs/notas.md)
 export const ORIGENES = [
   {
     nombre: 'Ecatepec de Morelos',
@@ -21,13 +23,23 @@ export const ORIGENES = [
     ],
   },
   {
-    nombre: 'Chalco',
-    lat: 19.2617, lng: -98.8994,
-    indice: 91,
+    nombre: 'Chimalhuacán',
+    lat: 19.4200, lng: -98.9575,
+    indice: 87,
     rutas: [
-      { destino: 'Centro CDMX', tp: '2h 55min', auto: '1h 15min' },
-      { destino: 'Reforma / Polanco', tp: '3h 20min', auto: '1h 30min' },
-      { destino: 'Santa Fe', tp: '3h 55min', auto: '1h 55min' },
+      { destino: 'Centro CDMX', tp: '2h 15min', auto: '1h 05min' },
+      { destino: 'Reforma / Polanco', tp: '2h 45min', auto: '1h 20min' },
+      { destino: 'Santa Fe', tp: '3h 25min', auto: '1h 45min' },
+    ],
+  },
+  {
+    nombre: 'Tecámac',
+    lat: 19.7128, lng: -98.9767,
+    indice: 90,
+    rutas: [
+      { destino: 'Centro CDMX', tp: '3h 10min', auto: '1h 20min' },
+      { destino: 'Reforma / Polanco', tp: '3h 35min', auto: '1h 35min' },
+      { destino: 'Santa Fe', tp: '4h 05min', auto: '2h 00min' },
     ],
   },
 ];
