@@ -1,0 +1,72 @@
+.metodo-page {
+  min-height: 100vh;
+  background: #0a0a0a;
+  color: #f2f0ea;
+}
+
+.metodo-body {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 48px 24px 96px;
+}
+
+.metodo-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  color: #f2a93b;
+  background: rgba(242, 169, 59, 0.12);
+  padding: 4px 10px;
+  border-radius: 999px;
+  margin-bottom: 16px;
+}
+
+.metodo-body h1 {
+  font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+  font-weight: 500;
+  font-size: clamp(2rem, 5vw, 2.8rem);
+  margin: 0 0 12px;
+}
+
+.metodo-lead {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #8a8a83;
+  margin: 0 0 40px;
+}
+
+.metodo-body section {
+  margin-bottom: 36px;
+  padding-top: 28px;
+  border-top: 1px solid rgba(242, 240, 234, 0.08);
+}
+
+.metodo-body h2 {
+  font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  margin: 0 0 12px;
+}
+
+.metodo-body p,
+.metodo-body li {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #b5b3ab;
+}
+
+.metodo-body p { margin: 0 0 12px; }
+.metodo-body ul { padding-left: 20px; margin: 0; }
+.metodo-body li { margin-bottom: 6px; }
+.metodo-body strong { color: #f2f0ea; font-weight: 500; }
+
+.metodo-formula {
+  background: #141414;
+  border: 1px solid rgba(242, 240, 234, 0.1);
+  border-radius: 8px;
+  padding: 16px 18px;
+  margin: 0 0 16px;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #f2a93b;
+  overflow-x: auto;
+}

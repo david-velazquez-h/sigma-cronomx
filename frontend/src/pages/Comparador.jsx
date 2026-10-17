@@ -1,79 +1,62 @@
 import { useState } from 'react';
 import Nav from '../components/Nav';
-import { ORIGENES, DESTINOS, parseTiempo } from '../data/dummyData';
+import { useIndice } from '../data/useIndice';
+import { formatMin, hayProvisional } from '../data/destinos';
 import './Comparador.css';
 
 export default function Comparador() {
-  const [origenNombre, setOrigenNombre] = useState(ORIGENES[0].nombre);
-  const [destinoNombre, setDestinoNombre] = useState(DESTINOS[0].nombre);
+  const { data, error } = useIndice();
+  const [origenId, setOrigenId] = useState(null);
 
-  const origen = ORIGENES.find((o) => o.nombre === origenNombre);
-  const ruta = origen.rutas.find((r) => r.destino === destinoNombre);
+  if (error) return <div className="comparador-page"><Nav /><p>No se pudo cargar indice.json ({error})</p></div>;
+  if (!data) return <div className="comparador-page"><Nav /><p>Cargando…</p></div>;
 
-  const minTp = parseTiempo(ruta.tp);
-  const minAuto = parseTiempo(ruta.auto);
-  const maxMin = Math.max(minTp, minAuto);
+  const umbral = data.meta.parametros.decaimiento_min; // 120
+  const origen = data.municipios.find((m) => m.id === origenId) ?? data.municipios[0];
 
   return (
     <div className="comparador-page">
       <Nav />
 
       <div className="comparador-header">
-        <span className="comparador-tag">Datos de ejemplo</span>
-        <h1>Comparador de rutas</h1>
-        <p>Tiempo estimado en transporte público frente a auto particular.</p>
+        <span className="comparador-tag">{hayProvisional(data) ? 'Datos provisionales' : 'Piloto v1'}</span>
+        <h1>Comparador de destinos</h1>
+        <p>Tiempo estimado en transporte público desde tu municipio a cada polo de empleo. La barra completa equivale a {umbral} min, el punto donde la accesibilidad llega a cero.</p>
       </div>
 
       <div className="comparador-card">
         <div className="comparador-selects">
           <label className="comparador-field">
             <span>Origen</span>
-            <select value={origenNombre} onChange={(e) => setOrigenNombre(e.target.value)}>
-              {ORIGENES.map((o) => (
-                <option key={o.nombre} value={o.nombre}>{o.nombre}</option>
-              ))}
-            </select>
-          </label>
-
-          <label className="comparador-field">
-            <span>Destino</span>
-            <select value={destinoNombre} onChange={(e) => setDestinoNombre(e.target.value)}>
-              {DESTINOS.map((d) => (
-                <option key={d.nombre} value={d.nombre}>{d.nombre}</option>
+            <select value={origen.id} onChange={(e) => setOrigenId(e.target.value)}>
+              {data.municipios.map((m) => (
+                <option key={m.id} value={m.id}>{m.nombre}</option>
               ))}
             </select>
           </label>
         </div>
 
         <div className="comparador-result">
-          <div className="comparador-bar-row">
-            <div className="comparador-bar-label">
-              <span>Transporte público</span>
-              <span className="comparador-bar-value">{ruta.tp}</span>
+          {origen.destinos.map((d) => (
+            <div className="comparador-bar-row" key={d.nombre}>
+              <div className="comparador-bar-label">
+                <span>{d.nombre}</span>
+                <span className="comparador-bar-value">{formatMin(d.tp_min)}</span>
+              </div>
+              <div className="comparador-bar-track">
+                <div
+                  className="comparador-bar-fill comparador-bar-fill--tp"
+                  style={{ width: `${Math.min(100, ((d.tp_min ?? umbral) / umbral) * 100)}%` }}
+                />
+              </div>
             </div>
-            <div className="comparador-bar-track">
-              <div
-                className="comparador-bar-fill comparador-bar-fill--tp"
-                style={{ width: `${(minTp / maxMin) * 100}%` }}
-              />
-            </div>
-          </div>
-
-          <div className="comparador-bar-row">
-            <div className="comparador-bar-label">
-              <span>Auto particular</span>
-              <span className="comparador-bar-value">{ruta.auto}</span>
-            </div>
-            <div className="comparador-bar-track">
-              <div
-                className="comparador-bar-fill comparador-bar-fill--auto"
-                style={{ width: `${(minAuto / maxMin) * 100}%` }}
-              />
-            </div>
-          </div>
+          ))}
         </div>
 
-        <p className="comparador-legend-note">Coral = mayor costo de tiempo · Verde = menor costo de tiempo</p>
+        <p className="comparador-legend-note">
+          Índice de {origen.nombre}: {Math.round(origen.ipt_100)}/100
+          {origen.tramo_mexibus_min ? ` · incluye ~${Math.round(origen.tramo_mexibus_min)} min de Mexibús estimados` : ''}
+        </p>
       </div>
     </div>
   );
