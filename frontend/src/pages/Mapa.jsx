@@ -2,7 +2,7 @@ import { MapContainer, TileLayer, CircleMarker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import Nav from '../components/Nav';
 import { useIndice } from '../data/useIndice';
-import { DESTINOS, colorForIndice, formatMin, hayProvisional } from '../data/destinos';
+import { DESTINOS, NIVELES, colorForIpt, nivelIpt, formatMin, hayProvisional } from '../data/destinos';
 import './Mapa.css';
 
 export default function Mapa() {
@@ -36,14 +36,14 @@ export default function Mapa() {
                 key={m.id}
                 center={[m.lat, m.lng]}
                 radius={12}
-                pathOptions={{ color: '#fff', weight: 1.5, fillColor: colorForIndice(m.ipt_100), fillOpacity: 0.9 }}
+                pathOptions={{ color: '#fff', weight: 1.5, fillColor: colorForIpt(m.ipt_comp), fillOpacity: 0.9 }}
               >
                 <Popup>
                   <div className="mapa-popup">
                     <div className="mapa-popup-title">{m.nombre}</div>
                     <div className="mapa-popup-row">
-                      <span>Índice</span>
-                      <span>{Math.round(m.ipt_100)}/100</span>
+                      <span>Índice (IPT)</span>
+                      <span>{m.ipt_comp.toFixed(2)} · {nivelIpt(m.ipt_comp).etiqueta}</span>
                     </div>
                     {m.destinos.map((d) => (
                       <div className="mapa-popup-row" key={d.nombre}>
@@ -51,6 +51,9 @@ export default function Mapa() {
                         <span>{formatMin(d.tp_min)}</span>
                       </div>
                     ))}
+                    {m.acceso_min && (
+                      <div className="mapa-popup-flag">Incluye ~{Math.round(m.acceso_min)} min de acceso a la estación (estimado)</div>
+                    )}
                     {m.tramo_mexibus_min && (
                       <div className="mapa-popup-flag">Incluye ~{Math.round(m.tramo_mexibus_min)} min de Mexibús (estimado)</div>
                     )}
@@ -82,13 +85,13 @@ export default function Mapa() {
 
         <div className="mapa-legend">
           <h2>Índice de pobreza de tiempo</h2>
-          <div className="mapa-scale">
-            <div style={{ background: '#1D9E75' }}></div>
-            <div style={{ background: '#7fae5a' }}></div>
-            <div style={{ background: '#EF9F27' }}></div>
-            <div style={{ background: '#D85A30' }}></div>
-          </div>
-          <div className="mapa-scale-labels"><span>Bajo</span><span>Alto</span></div>
+          {NIVELES.map((n, i) => (
+            <div className="mapa-dot-key" key={n.etiqueta}>
+              <span className="mapa-dot" style={{ background: n.color }}></span>
+              {n.etiqueta} ({i === 0 ? `< ${n.max}` : n.max === Infinity ? `≥ ${NIVELES[i - 1].max}` : `${NIVELES[i - 1].max}–${n.max}`})
+            </div>
+          ))}
+          <div style={{ height: 12 }} />
 
           <div className="mapa-dot-key"><span className="mapa-dot" style={{ background: '#EF9F27' }}></span> Municipio de origen</div>
           <div className="mapa-dot-key"><span className="mapa-dot" style={{ background: '#8A8A83' }}></span> Destino de empleo</div>

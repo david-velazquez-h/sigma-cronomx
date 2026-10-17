@@ -57,6 +57,24 @@ Se probó si Apimetro ya tenía este corredor cargado bajo su sistema `TROLE` (7
  
 El corredor Chalco-Santa Marta queda anotado como candidato fuerte para v2 es un caso de uso perfecto para la narrativa de electromovilidad (Electro Hackatón, 8 de octubre), aunque no tengamos los datos listos todavía.
  
+### 2026-10-17 — David (de datos de ejemplo a datos reales)
+ 
+**Equipo.** Max pidió que David asumiera por esta vez el cálculo del índice. Se decidió no entrar al Electro Hackatón: exigía equipos de exactamente 5 personas y asistencia individual obligatoria a una capacitación a la que Max no podía conectarse.
+ 
+**Script único.** Se creó `backend/sigma_indice.py`: construye el grafo del GTFS, calcula tiempos a 3 polos de empleo, aplica Mexibús, acceso y espera, cruza con CONAPO y escribe `frontend/public/data/indice.json`. Los tiempos de Ecatepec y Neza coincidieron con la matriz previa de Max (44.2 y 30.2 min) antes de añadir acceso y espera.
+ 
+**Mexibús.** No hay GTFS público, así que para Chimalhuacán y Tecámac se suma un tramo estimado (distancia ÷ 20 km/h + 5 min de transbordo). Los 20 km/h son un supuesto, no una medición. Sin este parche ambos municipios salían con mejor acceso que Ecatepec, lo cual era un artefacto.
+ 
+**Marginación (hallazgo importante).** En el IM 2020 de CONAPO un valor alto significa *menos* marginación. Los IM que se usaban antes (0.75, 0.85…) eran estimaciones sin respaldo y estaban en el sentido contrario. Los 4 municipios piloto son grado "Muy bajo" a nivel municipal, con valores muy cercanos. Se invierte y normaliza min-max sobre los 125 municipios del Edomex. Consecuencia: el IM pesa poco y el índice depende sobre todo del tiempo de viaje. Limitación: el promedio municipal oculta desigualdad interna; una v2 debería usar AGEB o localidad.
+ 
+**Acceso y espera.** El primer cálculo (Ecatepec ≈ 44 min al Centro) era irreal porque arrancaba en la estación Ciudad Azteca, ya en el límite con la CDMX. Se añadió el tramo del centro del municipio a la estación (distancia × 1.3 a 15 km/h) y 7 min de espera. El resultado se presenta como **tiempo mínimo estimado** (piso, no techo): no incluye tráfico, obras, manifestaciones, saturación ni combis.
+ 
+**Validación.** Comparación manual contra Google Maps (transporte público, lunes 07:00, mismo origen y destino). Resultado cualitativo: SIGMA queda a pocos minutos de Maps. Tabla en `docs/IPT/validacion.csv`. Pendiente: anotar aquí los números finales.
+ 
+**Colores del mapa.** Los umbrales ahora usan el IPT directo: < 0.3 bajo, 0.3–0.5 moderado, 0.5–0.8 alto, ≥ 0.8 "exclusión severa" (umbral definido por Max).
+ 
+**Alcance.** Buscador por municipio dentro del comparador (catálogo de los 125 municipios del Edomex; solo 4 con cálculo). Se decidió dejar fuera de la v1 un top de propuestas de nuevas rutas y un simulador: requieren backend, moderación y criterio urbanístico que el equipo no tiene; lo que sí es simulable (agregar una conexión al grafo y medir minutos ahorrados) queda como idea para v2.
+
 ---
 
 

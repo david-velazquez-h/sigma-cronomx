@@ -127,3 +127,51 @@
 @media (max-width: 480px) {
   .comparador-selects { flex-direction: column; }
 }
+
+.comparador-field input {
+  background: #0a0a0a;
+  color: #f2f0ea;
+  border: 1px solid rgba(242, 240, 234, 0.14);
+  border-radius: 6px;
+  padding: 10px 12px;
+  font-size: 0.9rem;
+  font-family: inherit;
+}
+
+.comparador-field input:focus {
+  outline: none;
+  border-color: rgba(242, 169, 59, 0.5);
+}
+
+.comparador-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.comparador-chip {
+  background: transparent;
+  color: #8a8a83;
+  border: 1px solid rgba(242, 240, 234, 0.14);
+  border-radius: 999px;
+  padding: 5px 12px;
+  font-size: 0.8rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.comparador-chip:hover {
+  color: #f2f0ea;
+  border-color: rgba(242, 169, 59, 0.5);
+}
+
+.comparador-msg {
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: #b5b3ab;
+  margin: 0;
+}
+
+.comparador-msg strong { color: #f2f0ea; font-weight: 500; }

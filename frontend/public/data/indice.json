@@ -7,12 +7,15 @@
     "parametros": {
       "decaimiento_min": 120.0,
       "transbordo_min": 5.0,
-      "velocidad_mexibus_kmh": 20.0
+      "velocidad_mexibus_kmh": 20.0,
+      "velocidad_acceso_kmh": 15.0,
+      "factor_rodeo": 1.3,
+      "espera_inicial_min": 7.0
     },
     "advertencias": [
       "Tiempos de Metro/Metrobús salen del GTFS SEMOVI CDMX (versión 31-oct-2022).",
       "El tramo Mexibús es una estimación distancia/velocidad: no existe GTFS público de Mexibús.",
-      "No incluye tiempo de acceso a pie, esperas ni congestión.",
+      "El tramo del centro del municipio a la estación y la espera inicial son estimaciones (velocidad y factor de rodeo supuestos). No incluye esperas en transbordos, caminata fina, congestión del Metrobús ni saturación.",
       "No se calculan tiempos en auto: el comparador aún no tiene esa fuente."
     ]
   },
@@ -20,126 +23,640 @@
     {
       "id": "ecatepec",
       "nombre": "Ecatepec",
+      "nombre_conapo": "Ecatepec de Morelos",
       "lat": 19.6015,
       "lng": -99.0503,
       "nodo_origen": "B_0200LB-CIUDADAZTECA",
       "tramo_mexibus_min": null,
+      "acceso_min": 40.7,
+      "espera_min": 7.0,
       "destinos": [
         {
           "nombre": "Centro CDMX",
           "stop_id": "B_0200L2-PINOSUAREZ",
-          "tp_min": 44.2
+          "tp_min": 91.8
         },
         {
           "nombre": "Reforma / Polanco",
           "stop_id": "B_0200L7-POLANCO",
-          "tp_min": 57.4
+          "tp_min": 105.1
         },
         {
           "nombre": "Santa Fe (Observatorio)",
           "stop_id": "B_0200L1-OBSERVATORIO",
-          "tp_min": 55.9
+          "tp_min": 103.6
         }
       ],
-      "mejor_tp_min": 44.2,
-      "acc_relativa": 0.632,
+      "mejor_tp_min": 91.8,
+      "acc_relativa": 0.235,
       "im": 0.128,
       "im_fuente": "CONAPO 2020 (Edomex, min-max invertido)",
-      "ipt_comp": 0.415,
-      "ipt_100": 20.8
+      "ipt_comp": 0.863,
+      "ipt_100": 43.1
     },
     {
       "id": "nezahualcoyotl",
       "nombre": "Nezahualcóyotl",
+      "nombre_conapo": "Nezahualcóyotl",
       "lat": 19.4003,
       "lng": -99.0148,
       "nodo_origen": "B_0200LB-NEZAHUALCO",
       "tramo_mexibus_min": null,
+      "acceso_min": 47.3,
+      "espera_min": 7.0,
       "destinos": [
         {
           "nombre": "Centro CDMX",
           "stop_id": "B_0200L2-PINOSUAREZ",
-          "tp_min": 30.2
+          "tp_min": 84.4
         },
         {
           "nombre": "Reforma / Polanco",
           "stop_id": "B_0200L7-POLANCO",
-          "tp_min": 43.5
+          "tp_min": 97.7
         },
         {
           "nombre": "Santa Fe (Observatorio)",
           "stop_id": "B_0200L1-OBSERVATORIO",
-          "tp_min": 42.0
+          "tp_min": 96.2
         }
       ],
-      "mejor_tp_min": 30.2,
-      "acc_relativa": 0.748,
+      "mejor_tp_min": 84.4,
+      "acc_relativa": 0.297,
       "im": 0.136,
       "im_fuente": "CONAPO 2020 (Edomex, min-max invertido)",
-      "ipt_comp": 0.286,
-      "ipt_100": 14.3
+      "ipt_comp": 0.799,
+      "ipt_100": 40.0
     },
     {
       "id": "chimalhuacan",
       "nombre": "Chimalhuacán",
+      "nombre_conapo": "Chimalhuacán",
       "lat": 19.415,
       "lng": -98.995,
       "nodo_origen": "B_0200LA-PANTITLAN",
       "tramo_mexibus_min": 59.6,
+      "acceso_min": null,
+      "espera_min": 7.0,
       "destinos": [
         {
           "nombre": "Centro CDMX",
           "stop_id": "B_0200L2-PINOSUAREZ",
-          "tp_min": 85.4
+          "tp_min": 92.4
         },
         {
           "nombre": "Reforma / Polanco",
           "stop_id": "B_0200L7-POLANCO",
-          "tp_min": 98.9
+          "tp_min": 105.9
         },
         {
           "nombre": "Santa Fe (Observatorio)",
           "stop_id": "B_0200L1-OBSERVATORIO",
-          "tp_min": 95.8
+          "tp_min": 102.8
         }
       ],
-      "mejor_tp_min": 85.4,
-      "acc_relativa": 0.288,
+      "mejor_tp_min": 92.4,
+      "acc_relativa": 0.23,
       "im": 0.279,
       "im_fuente": "CONAPO 2020 (Edomex, min-max invertido)",
-      "ipt_comp": 0.911,
-      "ipt_100": 45.5
+      "ipt_comp": 0.985,
+      "ipt_100": 49.3
     },
     {
       "id": "tecamac",
       "nombre": "Tecámac",
+      "nombre_conapo": "Tecámac",
       "lat": 19.7128,
       "lng": -98.9767,
       "nodo_origen": "B_0200L3-INDIOSVERD",
       "tramo_mexibus_min": 71.9,
+      "acceso_min": null,
+      "espera_min": 7.0,
       "destinos": [
         {
           "nombre": "Centro CDMX",
           "stop_id": "B_0200L2-PINOSUAREZ",
-          "tp_min": 95.3
+          "tp_min": 102.3
         },
         {
           "nombre": "Reforma / Polanco",
           "stop_id": "B_0200L7-POLANCO",
-          "tp_min": 103.7
+          "tp_min": 110.7
         },
         {
           "nombre": "Santa Fe (Observatorio)",
           "stop_id": "B_0200L1-OBSERVATORIO",
-          "tp_min": 105.8
+          "tp_min": 112.8
         }
       ],
-      "mejor_tp_min": 95.3,
-      "acc_relativa": 0.206,
+      "mejor_tp_min": 102.3,
+      "acc_relativa": 0.148,
       "im": 0.074,
       "im_fuente": "CONAPO 2020 (Edomex, min-max invertido)",
-      "ipt_comp": 0.853,
-      "ipt_100": 42.6
+      "ipt_comp": 0.915,
+      "ipt_100": 45.8
+    }
+  ],
+  "catalogo": [
+    {
+      "nombre": "Acambay de Ruíz Castañeda",
+      "im": 0.726
+    },
+    {
+      "nombre": "Acolman",
+      "im": 0.227
+    },
+    {
+      "nombre": "Aculco",
+      "im": 0.72
+    },
+    {
+      "nombre": "Almoloya de Alquisiras",
+      "im": 0.611
+    },
+    {
+      "nombre": "Almoloya de Juárez",
+      "im": 0.527
+    },
+    {
+      "nombre": "Almoloya del Río",
+      "im": 0.262
+    },
+    {
+      "nombre": "Amanalco",
+      "im": 0.658
+    },
+    {
+      "nombre": "Amatepec",
+      "im": 0.727
+    },
+    {
+      "nombre": "Amecameca",
+      "im": 0.273
+    },
+    {
+      "nombre": "Apaxco",
+      "im": 0.256
+    },
+    {
+      "nombre": "Atenco",
+      "im": 0.352
+    },
+    {
+      "nombre": "Atizapán",
+      "im": 0.335
+    },
+    {
+      "nombre": "Atizapán de Zaragoza",
+      "im": 0.08
+    },
+    {
+      "nombre": "Atlacomulco",
+      "im": 0.417
+    },
+    {
+      "nombre": "Atlautla",
+      "im": 0.483
+    },
+    {
+      "nombre": "Axapusco",
+      "im": 0.411
+    },
+    {
+      "nombre": "Ayapango",
+      "im": 0.373
+    },
+    {
+      "nombre": "Calimaya",
+      "im": 0.228
+    },
+    {
+      "nombre": "Capulhuac",
+      "im": 0.192
+    },
+    {
+      "nombre": "Coacalco de Berriozábal",
+      "im": 0.0
+    },
+    {
+      "nombre": "Coatepec Harinas",
+      "im": 0.629
+    },
+    {
+      "nombre": "Cocotitlán",
+      "im": 0.287
+    },
+    {
+      "nombre": "Coyotepec",
+      "im": 0.221
+    },
+    {
+      "nombre": "Cuautitlán",
+      "im": 0.044
+    },
+    {
+      "nombre": "Chalco",
+      "im": 0.276
+    },
+    {
+      "nombre": "Chapa de Mota",
+      "im": 0.578
+    },
+    {
+      "nombre": "Chapultepec",
+      "im": 0.206
+    },
+    {
+      "nombre": "Chiautla",
+      "im": 0.291
+    },
+    {
+      "nombre": "Chicoloapan",
+      "im": 0.178
+    },
+    {
+      "nombre": "Chiconcuac",
+      "im": 0.224
+    },
+    {
+      "nombre": "Chimalhuacán",
+      "im": 0.279
+    },
+    {
+      "nombre": "Donato Guerra",
+      "im": 0.856
+    },
+    {
+      "nombre": "Ecatepec de Morelos",
+      "im": 0.128
+    },
+    {
+      "nombre": "Ecatzingo",
+      "im": 0.418
+    },
+    {
+      "nombre": "Huehuetoca",
+      "im": 0.159
+    },
+    {
+      "nombre": "Hueypoxtla",
+      "im": 0.36
+    },
+    {
+      "nombre": "Huixquilucan",
+      "im": 0.155
+    },
+    {
+      "nombre": "Isidro Fabela",
+      "im": 0.414
+    },
+    {
+      "nombre": "Ixtapaluca",
+      "im": 0.18
+    },
+    {
+      "nombre": "Ixtapan de la Sal",
+      "im": 0.411
+    },
+    {
+      "nombre": "Ixtapan del Oro",
+      "im": 0.79
+    },
+    {
+      "nombre": "Ixtlahuaca",
+      "im": 0.51
+    },
+    {
+      "nombre": "Xalatlaco",
+      "im": 0.373
+    },
+    {
+      "nombre": "Jaltenco",
+      "im": 0.108
+    },
+    {
+      "nombre": "Jilotepec",
+      "im": 0.521
+    },
+    {
+      "nombre": "Jilotzingo",
+      "im": 0.388
+    },
+    {
+      "nombre": "Jiquipilco",
+      "im": 0.55
+    },
+    {
+      "nombre": "Jocotitlán",
+      "im": 0.398
+    },
+    {
+      "nombre": "Joquicingo",
+      "im": 0.474
+    },
+    {
+      "nombre": "Juchitepec",
+      "im": 0.347
+    },
+    {
+      "nombre": "Lerma",
+      "im": 0.146
+    },
+    {
+      "nombre": "Malinalco",
+      "im": 0.561
+    },
+    {
+      "nombre": "Melchor Ocampo",
+      "im": 0.205
+    },
+    {
+      "nombre": "Metepec",
+      "im": 0.044
+    },
+    {
+      "nombre": "Mexicaltzingo",
+      "im": 0.185
+    },
+    {
+      "nombre": "Morelos",
+      "im": 0.825
+    },
+    {
+      "nombre": "Naucalpan de Juárez",
+      "im": 0.128
+    },
+    {
+      "nombre": "Nezahualcóyotl",
+      "im": 0.136
+    },
+    {
+      "nombre": "Nextlalpan",
+      "im": 0.23
+    },
+    {
+      "nombre": "Nicolás Romero",
+      "im": 0.208
+    },
+    {
+      "nombre": "Nopaltepec",
+      "im": 0.365
+    },
+    {
+      "nombre": "Ocoyoacac",
+      "im": 0.2
+    },
+    {
+      "nombre": "Ocuilan",
+      "im": 0.562
+    },
+    {
+      "nombre": "El Oro",
+      "im": 0.541
+    },
+    {
+      "nombre": "Otumba",
+      "im": 0.352
+    },
+    {
+      "nombre": "Otzoloapan",
+      "im": 0.615
+    },
+    {
+      "nombre": "Otzolotepec",
+      "im": 0.377
+    },
+    {
+      "nombre": "Ozumba",
+      "im": 0.432
+    },
+    {
+      "nombre": "Papalotla",
+      "im": 0.279
+    },
+    {
+      "nombre": "La Paz",
+      "im": 0.312
+    },
+    {
+      "nombre": "Polotitlán",
+      "im": 0.437
+    },
+    {
+      "nombre": "Rayón",
+      "im": 0.238
+    },
+    {
+      "nombre": "San Antonio la Isla",
+      "im": 0.109
+    },
+    {
+      "nombre": "San Felipe del Progreso",
+      "im": 0.772
+    },
+    {
+      "nombre": "San Martín de las Pirámides",
+      "im": 0.288
+    },
+    {
+      "nombre": "San Mateo Atenco",
+      "im": 0.176
+    },
+    {
+      "nombre": "San Simón de Guerrero",
+      "im": 0.63
+    },
+    {
+      "nombre": "Santo Tomás",
+      "im": 0.532
+    },
+    {
+      "nombre": "Soyaniquilpan de Juárez",
+      "im": 0.466
+    },
+    {
+      "nombre": "Sultepec",
+      "im": 0.827
+    },
+    {
+      "nombre": "Tecámac",
+      "im": 0.074
+    },
+    {
+      "nombre": "Tejupilco",
+      "im": 0.614
+    },
+    {
+      "nombre": "Temamatla",
+      "im": 0.354
+    },
+    {
+      "nombre": "Temascalapa",
+      "im": 0.363
+    },
+    {
+      "nombre": "Temascalcingo",
+      "im": 0.555
+    },
+    {
+      "nombre": "Temascaltepec",
+      "im": 0.714
+    },
+    {
+      "nombre": "Temoaya",
+      "im": 0.472
+    },
+    {
+      "nombre": "Tenancingo",
+      "im": 0.412
+    },
+    {
+      "nombre": "Tenango del Aire",
+      "im": 0.294
+    },
+    {
+      "nombre": "Tenango del Valle",
+      "im": 0.377
+    },
+    {
+      "nombre": "Teoloyucan",
+      "im": 0.183
+    },
+    {
+      "nombre": "Teotihuacán",
+      "im": 0.239
+    },
+    {
+      "nombre": "Tepetlaoxtoc",
+      "im": 0.336
+    },
+    {
+      "nombre": "Tepetlixpa",
+      "im": 0.411
+    },
+    {
+      "nombre": "Tepotzotlán",
+      "im": 0.248
+    },
+    {
+      "nombre": "Tequixquiac",
+      "im": 0.21
+    },
+    {
+      "nombre": "Texcaltitlán",
+      "im": 0.658
+    },
+    {
+      "nombre": "Texcalyacac",
+      "im": 0.208
+    },
+    {
+      "nombre": "Texcoco",
+      "im": 0.291
+    },
+    {
+      "nombre": "Tezoyuca",
+      "im": 0.452
+    },
+    {
+      "nombre": "Tianguistenco",
+      "im": 0.348
+    },
+    {
+      "nombre": "Timilpan",
+      "im": 0.477
+    },
+    {
+      "nombre": "Tlalmanalco",
+      "im": 0.171
+    },
+    {
+      "nombre": "Tlalnepantla de Baz",
+      "im": 0.082
+    },
+    {
+      "nombre": "Tlatlaya",
+      "im": 0.778
+    },
+    {
+      "nombre": "Toluca",
+      "im": 0.148
+    },
+    {
+      "nombre": "Tonatico",
+      "im": 0.343
+    },
+    {
+      "nombre": "Tultepec",
+      "im": 0.109
+    },
+    {
+      "nombre": "Tultitlán",
+      "im": 0.085
+    },
+    {
+      "nombre": "Valle de Bravo",
+      "im": 0.368
+    },
+    {
+      "nombre": "Villa de Allende",
+      "im": 0.748
+    },
+    {
+      "nombre": "Villa del Carbón",
+      "im": 0.652
+    },
+    {
+      "nombre": "Villa Guerrero",
+      "im": 0.597
+    },
+    {
+      "nombre": "Villa Victoria",
+      "im": 0.935
+    },
+    {
+      "nombre": "Xonacatlán",
+      "im": 0.249
+    },
+    {
+      "nombre": "Zacazonapan",
+      "im": 0.482
+    },
+    {
+      "nombre": "Zacualpan",
+      "im": 1.0
+    },
+    {
+      "nombre": "Zinacantepec",
+      "im": 0.233
+    },
+    {
+      "nombre": "Zumpahuacán",
+      "im": 0.776
+    },
+    {
+      "nombre": "Zumpango",
+      "im": 0.214
+    },
+    {
+      "nombre": "Cuautitlán Izcalli",
+      "im": 0.028
+    },
+    {
+      "nombre": "Valle de Chalco Solidaridad",
+      "im": 0.276
+    },
+    {
+      "nombre": "Luvianos",
+      "im": 0.844
+    },
+    {
+      "nombre": "San José del Rincón",
+      "im": 0.856
+    },
+    {
+      "nombre": "Tonanitla",
+      "im": 0.259
     }
   ]
 }

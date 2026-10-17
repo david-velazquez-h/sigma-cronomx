@@ -5,13 +5,16 @@ export const DESTINOS = [
   { nombre: 'Santa Fe (Observatorio)', lat: 19.3985, lng: -99.2005 }, // Observatorio
 ];
 
-// ipt_100: 0-100 (IPT_comp escalado sobre su máximo teórico de 2)
-export function colorForIndice(v) {
-  if (v < 30) return '#1D9E75';
-  if (v < 55) return '#7fae5a';
-  if (v < 75) return '#EF9F27';
-  return '#D85A30';
-}
+// Umbrales sobre IPT_comp (escala natural 0-2). 0.8 = "exclusión severa" (criterio de Max)
+export const NIVELES = [
+  { max: 0.3, color: '#1D9E75', etiqueta: 'Bajo' },
+  { max: 0.5, color: '#7fae5a', etiqueta: 'Moderado' },
+  { max: 0.8, color: '#EF9F27', etiqueta: 'Alto' },
+  { max: Infinity, color: '#D85A30', etiqueta: 'Exclusión severa' },
+];
+
+export const nivelIpt = (ipt) => NIVELES.find((n) => ipt < n.max);
+export const colorForIpt = (ipt) => nivelIpt(ipt).color;
 
 export function formatMin(min) {
   if (min == null) return 'Sin ruta';

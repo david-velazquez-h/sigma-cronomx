@@ -29,7 +29,8 @@ Acc_Relativa = máx(0, 1 − t / {p?.decaimiento_min ?? 120})</pre>
             <strong> IM</strong> es la marginación del municipio, normalizada de 0 a 1.
           </p>
           <p>
-            Para dibujar el mapa, el IPT se escala sobre su máximo teórico (2) y se muestra de 0 a 100.
+            El IPT va de 0 a 2. Para el mapa usamos cuatro niveles: bajo (menos de 0.3), moderado (0.3–0.5),
+            alto (0.5–0.8) y exclusión severa (0.8 o más; umbral definido en el diseño del índice).
           </p>
         </section>
 
@@ -42,6 +43,12 @@ Acc_Relativa = máx(0, 1 − t / {p?.decaimiento_min ?? 120})</pre>
             Dijkstra obtenemos el camino más corto desde la estación de origen de cada municipio
             hasta tres polos de empleo: Pino Suárez (Centro), Polanco (Reforma/Polanco) y
             Observatorio (Santa Fe).
+          </p>
+          <p>
+            Como el GTFS empieza en la estación y no en tu casa, sumamos dos tramos estimados:
+            el acceso del centro del municipio a la estación (distancia en línea recta × {p?.factor_rodeo ?? 1.3},
+            a {p?.velocidad_acceso_kmh ?? 15} km/h, como una combi en tráfico) y {p?.espera_inicial_min ?? 7} minutos de espera inicial.
+            Por eso el resultado es un <strong>tiempo mínimo estimado</strong>: un piso, no un techo.
           </p>
         </section>
 
@@ -73,7 +80,8 @@ Acc_Relativa = máx(0, 1 − t / {p?.decaimiento_min ?? 120})</pre>
           <h2>5. Limitaciones conocidas</h2>
           <ul>
             <li>Los datos de Metro y Metrobús vienen del GTFS de SEMOVI, versión del 31 de octubre de 2022.</li>
-            <li>Son tiempos programados: no incluyen esperas, caminata a la estación, congestión ni saturación.</li>
+            <li>Son tiempos programados y optimistas: no incluyen tráfico, obras, manifestaciones, saturación ni esperas en transbordos. El tiempo real suele ser mayor.</li>
+            <li>El acceso a la estación y la espera inicial son supuestos nuestros, aún en proceso de calibración contra fuentes externas.</li>
             <li>Cada municipio se representa con una sola estación de origen, no con toda su población.</li>
             <li>El IM es un promedio municipal y oculta diferencias internas. Una versión futura debería usar AGEB o localidad.</li>
             <li>No comparamos contra auto particular: aún no tenemos una fuente de tiempos.</li>

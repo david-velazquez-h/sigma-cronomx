@@ -1,57 +1,83 @@
 # CronoMX
 ### SIGMA — Sistema de Índices Georreferenciados de Movilidad y Accesibilidad
 
-**Cuantificando el costo real del transporte público en la Zona Metropolitana del Valle de México.**
+**Cuantificando el costo de tiempo del transporte público entre el Estado de México y la CDMX.**
 
 ---
 
-##  El problema
+## El problema
 
-Cruzar la Zona Metropolitana del Valle de México en transporte público toma en promedio entre **5h21min y 5h49min**, frente a apenas 2.7–2.8 horas en auto particular (ONU-Habitat). Este costo recae de forma desproporcionada en los municipios conurbados del Estado de México, cuyos habitantes cruzan diariamente para trabajar o estudiar en la CDMX.
+Cruzar la Zona Metropolitana del Valle de México en transporte público toma en promedio entre **5h21min y 5h49min**, frente a 2.7–2.8 horas en auto particular (ONU-Habitat). Ese costo recae de forma desproporcionada en los municipios conurbados del Estado de México, cuyos habitantes cruzan a diario para trabajar o estudiar en la CDMX.
 
-A este fenómeno se le conoce en estudios urbanos como **pobreza de tiempo**: el tiempo de vida, descanso y convivencia que se pierde de forma sistemática por un transporte ineficiente y que hoy no está cuantificado, visualizado ni es accesible de forma actualizable.
+En estudios urbanos se llama **pobreza de tiempo**: el tiempo de vida, descanso y convivencia que se pierde de forma sistemática por un transporte lento, y que hoy casi no se cuantifica ni se publica de forma abierta y reproducible.
 
-##  Qué hace CronoMX
+## Qué hace CronoMX
 
-- **Mapa interactivo** de la ZMVM que muestra el índice de "pobreza de tiempo" por municipio/corredor.
-- **Comparador de rutas**: tiempo estimado en transporte público (con transbordos) vs auto particular entre dos puntos.
-- **Metodología abierta y reproducible**, documentada para que investigadores en movilidad urbana y estudios sociales puedan auditar, usar o extender el trabajo.
+- **Mapa** con el índice de pobreza de tiempo (IPT) de los municipios piloto.
+- **Comparador** con buscador de municipio: tiempo mínimo estimado en transporte público a tres polos de empleo (Centro, Reforma/Polanco, Santa Fe).
+- **Metodología abierta**: fórmula, supuestos y limitaciones documentados para que cualquiera pueda auditarlos.
 
-No buscamos "arreglar" el transporte público, buscamos hacer visible y medible un costo social que hoy es difuso y anecdótico.
+CronoMX no pretende "arreglar" el transporte público: busca hacer visible y medible un costo social que hoy es difuso.
 
-##  Estado del proyecto
+## Estado del proyecto: v1 piloto
 
- En desarrollo activo, proyecto estudiantil de la Escuela Superior de Cómputo (ESCOM), Instituto Politécnico Nacional.
+Alcance actual: **Ecatepec de Morelos, Nezahualcóyotl, Chimalhuacán y Tecámac**, contra tres destinos en la CDMX.
 
-##  Stack tecnológico
+Lo que el índice **sí** mide: tiempo programado mínimo en Metro y Metrobús (GTFS), tramo estimado de acceso a la estación, tramo estimado de Mexibús, y marginación municipal de CONAPO.
 
-- **Backend:** Python, FastAPI, PostgreSQL + PostGIS
-- **Modelado:** Python, NetworkX, NumPy/SciPy
-- **Frontend:** React, Leaflet
-- **Datos:** GTFS (CDMX y Mexibús), afluencia histórica Metro/Metrobús (datos abiertos)
+Lo que **no** mide todavía: tráfico, obras, manifestaciones, saturación, combis y colectivos, ni tiempos en auto. Es un **piso, no un techo**. Detalle completo en la página de Metodología del sitio y en [`docs/notas.md`](./docs/notas.md).
 
-Ver detalle completo en [`docs/stack/stack-tecnologico-cronomx.md`](./docs/stack/stack-tecnologico-cronomx.md).
+## Cómo se calcula
 
-##  Equipo
+```
+IPT = (1 − Acc_Relativa) × (1 + IM)
+Acc_Relativa = máx(0, 1 − t / 120)
+```
 
-| Integrante | Rol técnico | Rol de difusión |
-|---|---|---|
-| **Angel David Velazquez Herrera** | Líder del proyecto, Frontend y dirección de IA | Comunidades Open-Source y LinkedIn |
-| **Miguel Angel Romero Rentería** | Backend e infraestructura de datos | Relaciones institucionales y académicas |
-| **José Maximiliano Ramírez Monroy** | Modelado matemático del índice | Contenido, redes y storytelling | 
+`t` es el tiempo mínimo (min) al polo de empleo más cercano; `IM` es el índice de marginación CONAPO 2020, invertido y normalizado de 0 a 1 sobre los 125 municipios del Edomex. Niveles: bajo (< 0.3), moderado (0.3–0.5), alto (0.5–0.8) y exclusión severa (≥ 0.8).
 
-*TODOS DOCUMENTAN EL PROCESO*
+## Stack (v1)
 
-##  Documentación
+- **Cálculo:** Python, pandas, NetworkX (grafo del GTFS + Dijkstra). Un script genera `indice.json`.
+- **Frontend:** React + Vite, react-router, react-leaflet. Sin servidor: la web lee el JSON estático.
+- **Datos:** GTFS de SEMOVI CDMX (Metro y Metrobús, versión oct-2022), estaciones de Mexibús desde OpenStreetMap (Overpass), índice de marginación 2020 de CONAPO.
+
+API, base de datos y simulaciones quedan para v2. Ver [`docs/stack-tecnologico-cronomx.md`](./docs/stack-tecnologico-cronomx.md).
+
+## Cómo correrlo
+
+```bash
+# 1. Regenerar el índice (desde la raíz del repo)
+pip install pandas networkx numpy
+python backend/sigma_indice.py        # escribe frontend/public/data/indice.json
+
+# 2. Levantar la web
+cd frontend
+cp .env.example .env                  # agrega tu VITE_CARTO_API_KEY
+npm install
+npm run dev
+```
+
+Necesitas el GTFS limpio en `backend/gtfs_limpio/` (ver `backend/limpiar_gtfs.py`) y el CSV de CONAPO en `backend/datos/conapo_im_2020.csv`.
+
+## Equipo
+
+| Integrante | Aporte |
+|---|---|
+| **David Velazquez** | Frontend, cálculo del índice, datos, documentación y difusión |
+| **Max Ramírez** | Diseño de la fórmula del IPT y validación matemática |
+
+
+## Documentación
 
 - [Definición del proyecto](./docs/proyecto-pobreza-de-tiempo.md)
-- [Stack tecnológico](./docs/stack/stack-tecnologico-cronomx.md)
-- [Cronograma del semestre](./docs/cronograma/cronograma-cronomx.md)
-- [Notas y bitácora de decisiones](./docs/notas/notas.md)
+- [Stack tecnológico](./docs/stack-tecnologico-cronomx.md)
+- [Cronograma](./docs/cronograma-cronomx.md)
+- [Notas y bitácora de decisiones](./docs/notas.md)
 
 ## Licencia
 
-Este proyecto es de código abierto bajo licencia MIT. ver [`LICENSE`](./LICENSE) para más detalles.
+Código abierto bajo licencia MIT — ver [`LICENSE`](./LICENSE).
 
 ---
 

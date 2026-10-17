@@ -10,10 +10,10 @@ Uso (desde la raíz del repo, sigma-cronomx/):
 
 """
 import json
-import heapq
 import os
 from datetime import date
 
+import networkx as nx
 import numpy as np
 import pandas as pd
 
@@ -27,6 +27,10 @@ RUTA_SALIDA = "frontend/public/data/indice.json"
 TRANSBORDO_MIN = 5.0          # mismo supuesto que el grafo base
 DECAIMIENTO_MIN = 120.0       # Acc_Relativa = max(0, 1 - t/120)
 VELOCIDAD_BRT_KMH = 20.0      # velocidad comercial supuesta del Mexibús (ESTIMACIÓN)
+# Tramo "puerta a estación" (el GTFS empieza en la estación, no en tu casa). ESTIMACIONES:
+VELOCIDAD_ACCESO_KMH = 15.0   # combi/colectivo en tráfico urbano
+FACTOR_RODEO = 1.3            # distancia por calle ≈ 1.3 × línea recta
+ESPERA_INICIAL_MIN = 7.0      # espera del primer vehículo
 IPT_MAX_TEORICO = 2.0         # (1-0) * (1+1): sirve para escalar a 0-100
 
 DESTINOS = {
@@ -76,22 +80,16 @@ def construir_grafo(ruta):
     # Si hay varios viajes sobre el mismo tramo, nos quedamos con el mínimo
     e = e.groupby(["stop_id", "sig"], as_index=False)["tramo"].min()
 
-    # Adjacency map keeps this script independent of NetworkX.
-    G = {}
-
-    def agregar_arista(a, b, peso):
-        G.setdefault(a, {})[b] = peso
-        G.setdefault(b, {})
-
+    G = nx.DiGraph()
     for a, b, w in e.itertuples(index=False):
-        agregar_arista(a, b, float(w))
+        G.add_edge(a, b, weight=float(w))
 
     for _, grupo in stops.groupby("stop_name"):
         ids = grupo["stop_id"].tolist()
         for i in range(len(ids)):
             for j in range(i + 1, len(ids)):
-                agregar_arista(ids[i], ids[j], TRANSBORDO_MIN)
-                agregar_arista(ids[j], ids[i], TRANSBORDO_MIN)
+                G.add_edge(ids[i], ids[j], weight=TRANSBORDO_MIN)
+                G.add_edge(ids[j], ids[i], weight=TRANSBORDO_MIN)
     return G
 
 
@@ -115,32 +113,40 @@ def cargar_im():
     return {k: (v["im_provisional"], "provisional") for k, v in ORIGENES.items()}
 
 
+def cargar_catalogo():
+    """Todos los municipios del Edomex con su IM normalizado (para el buscador)."""
+    if not os.path.exists(RUTA_IM_CSV):
+        return []
+    df = pd.read_csv(RUTA_IM_CSV)
+    lo, hi = df["im_raw"].min(), df["im_raw"].max()
+    df["im"] = ((hi - df["im_raw"]) / (hi - lo)).round(3)
+    df["municipio"] = df["municipio"].str.strip()
+    return [{"nombre": r.municipio, "im": float(r.im)} for r in df.itertuples()]
+
+
 # ----------------------------------------------------------------------------
 # 3. CÁLCULO
 # ----------------------------------------------------------------------------
+def haversine_km(lat1, lng1, lat2, lng2):
+    r = 6371.0
+    p1, p2 = np.radians(lat1), np.radians(lat2)
+    dphi, dl = p2 - p1, np.radians(lng2 - lng1)
+    a = np.sin(dphi / 2) ** 2 + np.cos(p1) * np.cos(p2) * np.sin(dl / 2) ** 2
+    return float(2 * r * np.arcsin(np.sqrt(a)))
+
+
 def tiempo(G, a, b):
-    if a not in G or b not in G:
+    try:
+        return nx.shortest_path_length(G, a, b, weight="weight")
+    except (nx.NetworkXNoPath, nx.NodeNotFound):
         return float("inf")
-    pendientes = [(0.0, a)]
-    distancias = {a: 0.0}
-    while pendientes:
-        distancia, nodo = heapq.heappop(pendientes)
-        if nodo == b:
-            return distancia
-        if distancia > distancias[nodo]:
-            continue
-        for vecino, peso in G[nodo].items():
-            nueva = distancia + peso
-            if nueva < distancias.get(vecino, float("inf")):
-                distancias[vecino] = nueva
-                heapq.heappush(pendientes, (nueva, vecino))
-    return float("inf")
 
 
 def main():
     G = construir_grafo(RUTA_GTFS)
-    print(f"Grafo: {len(G)} nodos, {sum(len(v) for v in G.values())} aristas")
+    print(f"Grafo: {G.number_of_nodes()} nodos, {G.number_of_edges()} aristas")
     im = cargar_im()
+    stops = pd.read_csv(RUTA_GTFS + "stops.csv").set_index("stop_id")
 
     municipios = []
     for nombre, o in ORIGENES.items():
@@ -148,9 +154,16 @@ def main():
             raise SystemExit(f"stop_id no existe en el GTFS: {o['nodo']}")
 
         # Tramo Mexibús (+ transbordo a Metro) que el GTFS no contiene
-        extra = 0.0
+        mexibus = 0.0
+        acceso = 0.0
         if o["km_mexibus"]:
-            extra = o["km_mexibus"] / VELOCIDAD_BRT_KMH * 60 + TRANSBORDO_MIN
+            mexibus = o["km_mexibus"] / VELOCIDAD_BRT_KMH * 60 + TRANSBORDO_MIN
+        else:
+            # Del centro del municipio a la estación de origen (combi/colectivo)
+            est = stops.loc[o["nodo"]]
+            km = haversine_km(o["lat"], o["lng"], est["stop_lat"], est["stop_lon"]) * FACTOR_RODEO
+            acceso = km / VELOCIDAD_ACCESO_KMH * 60
+        extra = mexibus + acceso + ESPERA_INICIAL_MIN
 
         destinos = []
         for dn, did in DESTINOS.items():
@@ -170,10 +183,13 @@ def main():
         municipios.append({
             "id": nombre.lower().replace("á", "a").replace("ó", "o").replace("é", "e").replace(" ", "-"),
             "nombre": nombre,
+            "nombre_conapo": NOMBRE_CONAPO[nombre],
             "lat": o["lat"],
             "lng": o["lng"],
             "nodo_origen": o["nodo"],
-            "tramo_mexibus_min": round(extra, 1) if extra else None,
+            "tramo_mexibus_min": round(mexibus, 1) if mexibus else None,
+            "acceso_min": round(acceso, 1) if acceso else None,
+            "espera_min": ESPERA_INICIAL_MIN,
             "destinos": destinos,
             "mejor_tp_min": mejor,
             "acc_relativa": round(acc, 3),
@@ -193,15 +209,19 @@ def main():
                 "decaimiento_min": DECAIMIENTO_MIN,
                 "transbordo_min": TRANSBORDO_MIN,
                 "velocidad_mexibus_kmh": VELOCIDAD_BRT_KMH,
+                "velocidad_acceso_kmh": VELOCIDAD_ACCESO_KMH,
+                "factor_rodeo": FACTOR_RODEO,
+                "espera_inicial_min": ESPERA_INICIAL_MIN,
             },
             "advertencias": [
                 "Tiempos de Metro/Metrobús salen del GTFS SEMOVI CDMX (versión 31-oct-2022).",
                 "El tramo Mexibús es una estimación distancia/velocidad: no existe GTFS público de Mexibús.",
-                "No incluye tiempo de acceso a pie, esperas ni congestión.",
+                "El tramo del centro del municipio a la estación y la espera inicial son estimaciones (velocidad y factor de rodeo supuestos). No incluye esperas en transbordos, caminata fina, congestión del Metrobús ni saturación.",
                 "No se calculan tiempos en auto: el comparador aún no tiene esa fuente.",
             ],
         },
         "municipios": municipios,
+        "catalogo": cargar_catalogo(),
     }
 
     os.makedirs(os.path.dirname(RUTA_SALIDA), exist_ok=True)
